@@ -20,6 +20,8 @@ A pandemia do COVID-19 é um acontecimento sem precedentes na história recente 
 
 No entanto, é fato que esta prática traz impactos grandes sobre a economia, em especial em países emergentes como o Brasil. Este estudo se propõe a investigar as relações entre o isolamento social praticado no país e indicadores econômicos como desemprego, informalidade e inflação. 
 
+🎥 [Apresentação do Projeto](https://drive.google.com/file/d/1r17x60hF7Gx_e8v6M-6V-O7QfEi8iRQL/view?usp=sharing)
+
 # Perguntas de Pesquisa
 Qual a relação entre isolamento social e indicadores sócio-econômicos durante a pandemia da COVID-19 no Brasil?
 
