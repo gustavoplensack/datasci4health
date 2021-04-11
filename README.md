@@ -1,6 +1,6 @@
-# Projeto _Um estudo sobre a relação entre isolamento social e indicadores sócio-econômicos durante o período da pandemia da COVID-19 no Brasil._
+# Projeto `Um estudo sobre a relação entre isolamento social e indicadores sócio-econômicos durante o período da pandemia da COVID-19 no Brasil.`
 
-# Project _A study on the relationship between social isolation and socio-economic indicators during the pandemic period of COVID-19 in Brazil._
+# Project `A study on the relationship between social isolation and socio-economic indicators during the pandemic period of COVID-19 in Brazil.`
 
 # Apresentação
 
