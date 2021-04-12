@@ -45,8 +45,8 @@ Qual a relação entre isolamento social e indicadores sócio-econômicos durant
 * [**Organização Mundial do Trabalho**](https://ilostat.ilo.org/): Dados gerais sobre o trabalho no mundo e definições sobre termos técnicos da área;
 * **Dados sobre isolamento social**:
     * [City Analytics](https://www.enelx.com/br/pt/para-cidades/dashboard-covid-19): mapa de mobilidade;
-    * [Painel InLoco](https://mapabrasileirodacovid.inloco.com.br/pt/): dados foram descontinuados (uma possibilidade, dado que esta plataforma foi descontinuada é investigar se os dados de SP e ES servem como proxy para estimar os dados foram descontinuados)
-
+    * [Painel InLoco](https://mapabrasileirodacovid.inloco.com.br/pt/): dados foram descontinuados (uma possibilidade, dado que esta plataforma foi descontinuada é investigar se os dados de SP e ES servem como proxy para estimar os dados foram descontinuados);
+* [**Dados sobre COVID-19 no Brasil**](https://covid.saude.gov.br/): casos, recuperados e óbitos;
  
 
 # Metodologia
