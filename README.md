@@ -67,25 +67,19 @@ Para execução desta metodologia, esperamos empregar as seguintes técnicas de 
 # Ferramentas
 
 As ferramentas que serão utilizadas dentro deste projeto serão:
-* Python
-    * Dados:
-        * Pandas;
-        * Numpy;
-        * Scikit-learn;
-        * Statsmodels;
-    * Web scraping(?):
-        * Selenium;
-        * Requests;
-        * Beautiful Soup;
-* Javascript/Typescript:
-    * Web scraping(?):
-        * Puppeteer;
+* Python 3.6.9
+    * [Pandas](https://pandas.pydata.org/);
+    * [Numpy](https://numpy.org/);
+    * [Scikit-learn](https://scikit-learn.org/stable/);
+    * [Statsmodels](https://www.statsmodels.org/stable/index.html);
+    * [Seaborn](https://seaborn.pydata.org/);
+    * [Matplotlib](https://matplotlib.org/stable/users/installing.html);
+    * [Pillow](https://pillow.readthedocs.io/en/stable/)
+* Gerenciamento de planilhas:
+    * MS Excel e Google Sheets;
 * Armazenagem e Computação em Nuvem:
-    * AWS - S3 (?);
     * Google Drive;
     * Google Colab;
-
-**NOTA:** as ferramentas marcadas com (?) são as menos prováveis de usarmos ao longo do projeto, mas que podem vir a ser necessárias. Elas serão removidas desta lista à medida que o desenvolvimento do projeto avançar e sua necessidade ficar mais clara.
 
 # Cronograma
 |                           -                           	|  Abril 	||  Maio  	||  Junho 	||  Julho 	|
