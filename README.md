@@ -76,18 +76,42 @@ Explorando os dados, observamos dados faltantes nas primeiras 15 amostras da sé
 
 Uma análise inicial sobre estes dados permitiu notar que para as 20 cidades mais populosas do estado a série de isolamento apresenta uma alta correlação. Ao longo de todo o período, o isolamento ficou entre 30% e 50% sendo um pouco maior nos finais de semana. Detalhes, gráficos e código podem ser verificados em `notebooks/Estudo_IPT_E2.ipynb`
 
-* **IBGE**:
-    * [PNAD](https://www.ibge.gov.br/estatisticas/sociais/educacao/9127-pesquisa-nacional-por-amostra-de-domicilios.html?=&t=o-que-e):compreende informações como ocupação, desemprego, informalidade, taxa de circulação;
-    * [Indicadores econômicos](https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html?=&t=resultados): IPCA, INPC, variação do PIB e PIB per capita;
-* **Ministério da Economia - Secretaria do Trabalho**:
-    * [CAGED](https://www.gov.br/trabalho/pt-br/assuntos/empregador/caged): acesso geral ao cadastro de empregados e desempregados;
-    * [Estatísticas do Seguro Desemprego](http://pdet.mte.gov.br/images/Seguro-Desemprego/202103/1-Apresenta%C3%A7%C3%A3o_Dados%20SD_mensal_Mar%C3%A7o_2021.pdf);
-* [**Organização Mundial do Trabalho**](https://ilostat.ilo.org/): Dados gerais sobre o trabalho no mundo e definições sobre termos técnicos da área;
-* **Dados sobre isolamento social**:
-    * [City Analytics](https://www.enelx.com/br/pt/para-cidades/dashboard-covid-19): mapa de mobilidade;
-    * [Painel InLoco](https://mapabrasileirodacovid.inloco.com.br/pt/): dados foram descontinuados (uma possibilidade, dado que esta plataforma foi descontinuada é investigar se os dados de SP e ES servem como proxy para estimar os dados foram descontinuados);
-* [**Dados sobre COVID-19 no Brasil**](https://covid.saude.gov.br/): casos, recuperados e óbitos;
+### PNAD contínua - Macrodados
+
+|          Base de Dados          |                                                                      Endereço na Web                                                                      |                                                       Resumo descritivo                                                      |
+|:-------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------:|
+| Macrodados PNAD Contínua - IBGE | https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html?edicao=30227&t=resultados | Acompanhamento do desenvolvimento socioeconômico do país, apresentando dados referente a força de trabalho formal e informal |
+
+A Pesquisa Nacional por Amostras de Domicílios (PNAD) em sua forma contínua teve início em 2012 com a junção da PNAD antiga e a Pesquisa Mensal de Emprego (PME) sendo realizada pelo Instituto Brasileiro de Geografia e Estatística (IBGE). A pesquisa tem abrangência nacional possibilitando inferências sobre o país, grandes regiões, unidades da federação e de algumas regiões metropolitanas dos municípios das capitais (SULIANO, 2017; IBGE, s/da).
+
+O grande foco da PNAD é o acompanhamento do desenvolvimento socioeconômico do país, apresentando dados referente a força de trabalho tanto formal como informal de forma mensal (país) e trimestral (demais subdivisões), contemplando outras informações relevantes de forma anual, sendo para tanto considerada uma das principais pesquisas sobre o mercado de trabalho do Brasil (SULIANO, 2017; IBGE, s/da; CONSEUIL, et al., 2019). 
+
+A pesquisa é realizada em 3.500 municípios do Brasil, acompanhando em média 211.344 domicílios particulares permanentes, na qual, cada um dos domicílios é visitado por 5 trimestres consecutivos. Durante o período da pandemia pelo coronavírus as entrevistas estão sendo realizadas via telefone (início na terceira semana de referência do mês de março de 2020) (SULIANO, 2017; IBGE, s/da; IPEA, 2019).
+
+O acesso ao banco de dados é aberto e fica localizado no próprio site do IBGE. No site é possível o acesso rápido às informações mensais do país e aos dados trimestrais das regiões e unidades da federação. Para as análises referentes às regiões metropolitanas dos municípios das capitais é necessário o acesso aos microdados da pesquisa (IBGE, s/da).
+
+Durante a pandemia também foi lançada a PNAD COVID-19 que acompanhou 193,6 mil domicílios em 3.364 municípios do país com o objetivo de avaliar os impactos da pandemia no mercado de trabalho. Teve seu início em maio de 2020 e foi descontinuada em setembro do mesmo ano. Por este motivo, visando atender aos objetivos estabelecidos neste projeto de pesquisa, optou-se pela análise apenas da PNAD contínua que abrange um período maior de estudo. Além disso, a PNAD covid-19, segundo o próprio IBGE, pode fornecer estatísticas experimentais na quais as inferências realizadas a partir dos dados devem ser realizadas com maior cautela (IBGE, s/db). 
  
+**Sobre os dados utilizados da PNAD contínua**
+
+Após a primeira arguição de nosso projeto com a professora Thaís, optou-se por focar apenas no banco de dados referente ao estado de São Paulo. Pelo site do IBGE foi possível baixar o banco de dados brutos do estado, com 112 tabelas contendo informações sobre a população geral, força de trabalho e  rendimentos obtidos entre o período de janeiro de 2012 a dezembro de 2020. 
+
+Inicialmente foi realizado um recorte temporal do banco, considerando o último trimestre pré-pandemia (outubro/dezembro 2019) e o período referente a pandemia de covid-19 no país (considerando os trimestres de janeiro/março a outubro/dezembro de 2020). Após, foram coletadas as informações referentes a população total; população com mais de 14 anos de idade; pessoas de 14 anos ou mais de idade ocupadas; pessoas de 14 anos ou mais de idade desocupadas e pessoas de 14 anos ou mais de idade fora da força de trabalho. A seleção destas informações foi realizada para o estabelecimento de um panorama acerca da situação de pessoas empregadas, desempregadas e que estavam fora da força de trabalho (não estavam em busca de emprego) durante o período da pandemia.
+
+**Análise descritiva dos dados**
+
+Durante o período selecionado a pesquisa contou com uma média de população total de 46 mil pessoas, sendo que destas, aproximadamente 38,5 mil apresentavam 14 anos ou mais de idade. O gráfico abaixo contém as informações sobre a população de pessoas de 14 anos ou mais de idade ocupadas, desocupadas e fora da força de trabalho no estado de São Paulo entre o período analisado.
+
+![ Evolução do número de pessoas desocupadas, ocupadas e fora da força de trabalho no estado de São Paulo de outubro de 2019 a dezembro de 2020.](./assets/PNAD.png)
+
+Gráfico 1 - Evolução do número de pessoas desocupadas, ocupadas e fora da força de trabalho no estado de São Paulo de outubro de 2019 a dezembro de 2020. 
+
+
+Podemos perceber pelo gráfico que entre o primeiro e segundo trimestre houve uma leve redução no número de pessoas ocupadas no estado, sendo a queda mais acentuada observada entre o segundo e terceiro trimestre, esboçando uma recuperação apenas entre o quarto e quinto trimestre. Em contraste, o nível de desocupados apresentou-se de maneira inversa: com grande aumento entre o segundo e terceiro trimestre, um aumento menos acentuado entre o terceiro  e quarto trimestre e uma leve queda entre o quarto e último trimestre.
+
+Por fim, o nível de pessoas fora da força de trabalho manteve-se estável ao longo do período acompanhado, apresentando um leve aumento durante os três últimos trimestres, o que poderia ser um reflexo da diminuição de pessoas procurando emprego com receio da pandemia. 
+
+Não foi necessário lidar com dados faltantes.
 
 # Metodologia
 O projeto de pesquisa usará o modelo _KDDM_ seguindo a metodologia de [1] dividida em 9 passos:
