@@ -18,12 +18,12 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 # Descrição Resumida do Projeto
 A pandemia do COVID-19 é um acontecimento sem precedentes na história recente da humanidade e seus impactos chegaram a todos os setores da sociedade. Como forma de mitigar a crise sanitária, uma das medidas mais eficazes se mostrou ser o distanciamento social.
 
-No entanto, é fato que esta prática traz impactos grandes sobre a economia, em especial em países emergentes como o Brasil. Este estudo se propõe a investigar as relações entre o isolamento social praticado no país e indicadores econômicos como desemprego, informalidade e inflação. 
+No entanto, é fato que esta prática traz impactos grandes sobre a economia, em especial em países emergentes como o Brasil. Este estudo se propõe a investigar as relações entre o isolamento social praticado no estado de São Paulo e indicadores econômicos como desemprego, informalidade e inflação. 
 
 🎥 [Apresentação do Projeto](https://drive.google.com/file/d/1r17x60hF7Gx_e8v6M-6V-O7QfEi8iRQL/view?usp=sharing)
 
 # Perguntas de Pesquisa
-Qual a relação entre isolamento social e indicadores sócio-econômicos durante a pandemia da COVID-19 no Brasil?
+Qual a relação entre isolamento social e indicadores sócio-econômicos durante a pandemia da COVID-19 no estado de São Paulo?
 
 ## Hipóteses (10/04/2021):
 **H1:** Num primeiro momento, o isolamento social leva ao aumento do desemprego;
