@@ -1,6 +1,6 @@
-# Projeto _"Um estudo sobre a relação entre isolamento social e indicadores sócio-econômicos durante o período da pandemia da COVID-19 no Brasil."_
+# Projeto _"Um estudo sobre a relação entre isolamento social e indicadores sócio-econômicos durante o período da pandemia da COVID-19 no Estado de São Paulo."_
 
-# Project _"A study on the relationship between social isolation and socio-economic indicators during the pandemic period of COVID-19 in Brazil."_
+# Project _"A study on the relationship between social isolation and socio-economic indicators during the pandemic period of COVID-19 in São Paulo State."_
 
 # Apresentação
 
@@ -18,12 +18,12 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 # Descrição Resumida do Projeto
 A pandemia do COVID-19 é um acontecimento sem precedentes na história recente da humanidade e seus impactos chegaram a todos os setores da sociedade. Como forma de mitigar a crise sanitária, uma das medidas mais eficazes se mostrou ser o distanciamento social.
 
-No entanto, é fato que esta prática traz impactos grandes sobre a economia, em especial em países emergentes como o Brasil. Este estudo se propõe a investigar as relações entre o isolamento social praticado no país e indicadores econômicos como desemprego, informalidade e inflação. 
+No entanto, é fato que esta prática traz impactos grandes sobre a economia, em especial em países emergentes como o Brasil. Este estudo se propõe a investigar as relações entre o isolamento social praticado no estado de São Paulo e indicadores econômicos como desemprego, informalidade e inflação. 
 
 🎥 [Apresentação do Projeto](https://drive.google.com/file/d/1r17x60hF7Gx_e8v6M-6V-O7QfEi8iRQL/view?usp=sharing)
 
 # Perguntas de Pesquisa
-Qual a relação entre isolamento social e indicadores sócio-econômicos durante a pandemia da COVID-19 no Brasil?
+Qual a relação entre isolamento social e indicadores sócio-econômicos durante a pandemia da COVID-19 no estado de São Paulo?
 
 ## Hipóteses (10/04/2021):
 **H1:** Num primeiro momento, o isolamento social leva ao aumento do desemprego;
@@ -34,23 +34,104 @@ Qual a relação entre isolamento social e indicadores sócio-econômicos durant
 
 **H4:** Políticas públicas, como o auxílio emergencial favorecem o isolamento social.
 
-# Bases de Dados
+# Bases de Dados e Evolução
 
-* **IBGE**:
-    * [PNAD](https://www.ibge.gov.br/estatisticas/sociais/educacao/9127-pesquisa-nacional-por-amostra-de-domicilios.html?=&t=o-que-e):compreende informações como ocupação, desemprego, informalidade, taxa de circulação;
-    * [Indicadores econômicos](https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html?=&t=resultados): IPCA, INPC, variação do PIB e PIB per capita;
-* **Ministério da Economia - Secretaria do Trabalho**:
-    * [CAGED](https://www.gov.br/trabalho/pt-br/assuntos/empregador/caged): acesso geral ao cadastro de empregados e desempregados;
-    * [Estatísticas do Seguro Desemprego](http://pdet.mte.gov.br/images/Seguro-Desemprego/202103/1-Apresenta%C3%A7%C3%A3o_Dados%20SD_mensal_Mar%C3%A7o_2021.pdf);
-* [**Organização Mundial do Trabalho**](https://ilostat.ilo.org/): Dados gerais sobre o trabalho no mundo e definições sobre termos técnicos da área;
-* **Dados sobre isolamento social**:
-    * [City Analytics](https://www.enelx.com/br/pt/para-cidades/dashboard-covid-19): mapa de mobilidade;
-    * [Painel InLoco](https://mapabrasileirodacovid.inloco.com.br/pt/): dados foram descontinuados (uma possibilidade, dado que esta plataforma foi descontinuada é investigar se os dados de SP e ES servem como proxy para estimar os dados foram descontinuados);
-* [**Dados sobre COVID-19 no Brasil**](https://covid.saude.gov.br/): casos, recuperados e óbitos;
+## Bases de Estudadas mas Não Adotadas
+
+### Mapa brasileiro da COVID-19 - InLoco
+
+|             Base de Dados            |                 Endereço na Web                 |                                      Resumo descritivo                                     |
+|:------------------------------------:|:-----------------------------------------------:|:------------------------------------------------------------------------------------------:|
+| Mapa brasileiro da COVID-19 - InLoco | https://mapabrasileirodacovid.inloco.com.br/pt/ | Dados de abrangência nacional sobre isolamento social coletado através de apps de celular. |
+
+A Inloco é uma startup de Recife especialista em geolocalização (atuante desde 2011). Para criar o “Índice de isolamento social” a Inloco utilizou dados celulares de 60 milhões de usuários. Por meio da API (Application Programming Interface) de aproximadamente 600 aplicativos (desde aplicativos de bancos até lojas de varejo) parceiros da empresa que anonimiza e agrega os dados e então repassa aos estados parceiros. A Inloco coletava, até então, estes dados de geolocalização para fins de publicidade e prevenção de fraudes. Durante a pandemia estes dados foram utilizados para avaliar o isolamento social. 
+
+A empresa calcula a taxa de isolamento a partir de um espaço que é dividido em polígonos de 450 metros de raio. A taxa de isolamento mede, do total de aparelhos que estavam no polígono durante a noite, quantos não mudaram de polígono ao longo do dia. A taxa de precisão é de 3 metros.
+
+Para essa análise ser estatisticamente relevante, são disponibilizados os dados de isolamento apenas no caso de haver um número mínimo de 20 usuários observados dentro das microrregiões. Se um município não tiver nenhuma microrregião que atenda a esse filtro, ele é desconsiderado e será eliminado  na composição do Índice de Isolamento do Estado.
+
+Durante o segundo semestre de 2020, a empresa Inloco foi vendida para a rede Magazine Luiza e a coleta de dados foi descontinuada no início de 2021. Os dados coletados durante o ano de 2020 e início de 2021 ficarão disponíveis Tableau Public. Foram coletados dados durante o período de fevereiro de 2020 até março de 2021. 
+
+Após a reunião com a professora Thaís na E1 o grupo acatou a sugestão de trabalhar com dados em menores proporções e limitamos o trabalho ao estado de São Paulo o que nos permitiu descartar este conjunto de dados. Outros motivos para não escolhermos os dados do Inloco foi a descontinuidade da coleta a partir do final de março de 2021 e fato de terem sido coletados por meio de apps específicos
+
+## Bases Estudadas e Adotadas
+
+### Dados de Isolamento Social do Estado de São Paulo - IPT
+
+|                      Base de Dados                      |                    Endereço na Web                    |                                  Resumo descritivo                                 |
+|:-------------------------------------------------------:|:-----------------------------------------------------:|:----------------------------------------------------------------------------------:|
+| Dados de Isolamento Social do Estado de São Paulo - IPT | https://www.saopaulo.sp.gov.br/coronavirus/isolamento | Dados sobre o isolamento social em cidades paulistas com mais de 50 mil habitantes |
+
+O IPT juntamente com o SIMI-SP (Sistema de Informações e Monitoramento Inteligente do Governo do Estado de São Paulo) divulga, diariamente, dados sobre o isolamento social nas cidades do estado de São Paulo. Os dados sobre isolamento social são coletados a partir de empresas prestadores de serviços de telecomunicação (telefonia celular – VIVO, TIM, CLARO, OI). Tais dados são obtidos a partir de uma plataforma chamada Big Data que é gerida pela Associação Brasileira de Recursos em Telecomunicações (ABR Telecom).
+
+O índice de isolamento social é baseado na localização obtida pelas antenas de celulares, usando como local de referência a localização onde o celular permaneceu dentre 22h00 e 2h00. Um celular que tenha se afastado desta referência, mais que 200m, é considerado fora do isolamento. 
+
+Os dados são repassados de forma anônima e agregada índices, gráficos e mapas estaduais agregados por municípios, não existindo a possibilidade de acesso a qualquer dado individualizado por parte do IPT ou do Governo do Estado.
+
+No início da coleta dos dados (início da pandemia) eram repassados apenas dados de municípios que possuíam mais de 70.000 habitantes, no entanto, a partir de janeiro de 2021 foram incluídos municípios com mais de 50.000 habitantes. Os índices são disponibilizados de maneira pública no [site do estado](http://saopaulo.sp.gov.br/coronavirus/isolamento) e são atualizados diariamente.
+
+O esquema do banco é uma série temporal com o isolamento naquele dia para um dado município. Também são encontrados alguns metadados como a população em 2020 e código do IBGE.
+
+Explorando os dados, observamos dados faltantes nas primeiras 15 amostras da série e alguns poucos no meio da série. Diante disso, removemos os 15 primeiros dias de coleta e interpolamos linearmente os demais dias.
+
+Uma análise inicial sobre estes dados permitiu notar que para as 20 cidades mais populosas do estado a série de isolamento apresenta uma alta correlação. Ao longo de todo o período, o isolamento ficou entre 30% e 50% sendo um pouco maior nos finais de semana. Detalhes, gráficos e código podem ser verificados em `notebooks/Estudo_IPT_E2.ipynb`
+
+### PNAD contínua - Macrodados
+
+|          Base de Dados          |                                                                      Endereço na Web                                                                      |                                                       Resumo descritivo                                                      |
+|:-------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------:|
+| Macrodados PNAD Contínua - IBGE | https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html?edicao=30227&t=resultados | Acompanhamento do desenvolvimento socioeconômico do país, apresentando dados referente a força de trabalho formal e informal |
+
+A Pesquisa Nacional por Amostras de Domicílios (PNAD) em sua forma contínua teve início em 2012 com a junção da PNAD antiga e a Pesquisa Mensal de Emprego (PME) sendo realizada pelo Instituto Brasileiro de Geografia e Estatística (IBGE). A pesquisa tem abrangência nacional possibilitando inferências sobre o país, grandes regiões, unidades da federação e de algumas regiões metropolitanas dos municípios das capitais (SULIANO, 2017; IBGE, s/da).
+
+O grande foco da PNAD é o acompanhamento do desenvolvimento socioeconômico do país, apresentando dados referente a força de trabalho tanto formal como informal de forma mensal (país) e trimestral (demais subdivisões), contemplando outras informações relevantes de forma anual, sendo para tanto considerada uma das principais pesquisas sobre o mercado de trabalho do Brasil (SULIANO, 2017; IBGE, s/da; CONSEUIL, et al., 2019). 
+
+A pesquisa é realizada em 3.500 municípios do Brasil, acompanhando em média 211.344 domicílios particulares permanentes, na qual, cada um dos domicílios é visitado por 5 trimestres consecutivos. Durante o período da pandemia pelo coronavírus as entrevistas estão sendo realizadas via telefone (início na terceira semana de referência do mês de março de 2020) (SULIANO, 2017; IBGE, s/da; IPEA, 2019).
+
+O acesso ao banco de dados é aberto e fica localizado no próprio site do IBGE. No site é possível o acesso rápido às informações mensais do país e aos dados trimestrais das regiões e unidades da federação. Para as análises referentes às regiões metropolitanas dos municípios das capitais é necessário o acesso aos microdados da pesquisa (IBGE, s/da).
+
+Durante a pandemia também foi lançada a PNAD COVID-19 que acompanhou 193,6 mil domicílios em 3.364 municípios do país com o objetivo de avaliar os impactos da pandemia no mercado de trabalho. Teve seu início em maio de 2020 e foi descontinuada em setembro do mesmo ano. Por este motivo, visando atender aos objetivos estabelecidos neste projeto de pesquisa, optou-se pela análise apenas da PNAD contínua que abrange um período maior de estudo. Além disso, a PNAD covid-19, segundo o próprio IBGE, pode fornecer estatísticas experimentais na quais as inferências realizadas a partir dos dados devem ser realizadas com maior cautela (IBGE, s/db). 
  
+**Sobre os dados utilizados da PNAD contínua**
+
+Após a primeira arguição de nosso projeto com a professora Thaís, optou-se por focar apenas no banco de dados referente ao estado de São Paulo. Pelo site do IBGE foi possível baixar o banco de dados brutos do estado, com 112 tabelas contendo informações sobre a população geral, força de trabalho e  rendimentos obtidos entre o período de janeiro de 2012 a dezembro de 2020. 
+
+Inicialmente foi realizado um recorte temporal do banco, considerando o último trimestre pré-pandemia (outubro/dezembro 2019) e o período referente a pandemia de covid-19 no país (considerando os trimestres de janeiro/março a outubro/dezembro de 2020). Após, foram coletadas as informações referentes a população total; população com mais de 14 anos de idade; pessoas de 14 anos ou mais de idade ocupadas; pessoas de 14 anos ou mais de idade desocupadas e pessoas de 14 anos ou mais de idade fora da força de trabalho. A seleção destas informações foi realizada para o estabelecimento de um panorama acerca da situação de pessoas empregadas, desempregadas e que estavam fora da força de trabalho (não estavam em busca de emprego) durante o período da pandemia.
+
+**Análise descritiva dos dados**
+
+Durante o período selecionado a pesquisa contou com uma média de população total de 46 mil pessoas, sendo que destas, aproximadamente 38,5 mil apresentavam 14 anos ou mais de idade. O gráfico abaixo contém as informações sobre a população de pessoas de 14 anos ou mais de idade ocupadas, desocupadas e fora da força de trabalho no estado de São Paulo entre o período analisado.
+
+![ Evolução do número de pessoas desocupadas, ocupadas e fora da força de trabalho no estado de São Paulo de outubro de 2019 a dezembro de 2020.](./assets/PNAD.png)
+
+Gráfico 1 - Evolução do número de pessoas desocupadas, ocupadas e fora da força de trabalho no estado de São Paulo de outubro de 2019 a dezembro de 2020. 
+
+
+Podemos perceber pelo gráfico que entre o primeiro e segundo trimestre houve uma leve redução no número de pessoas ocupadas no estado, sendo a queda mais acentuada observada entre o segundo e terceiro trimestre, esboçando uma recuperação apenas entre o quarto e quinto trimestre. Em contraste, o nível de desocupados apresentou-se de maneira inversa: com grande aumento entre o segundo e terceiro trimestre, um aumento menos acentuado entre o terceiro  e quarto trimestre e uma leve queda entre o quarto e último trimestre.
+
+Por fim, o nível de pessoas fora da força de trabalho manteve-se estável ao longo do período acompanhado, apresentando um leve aumento durante os três últimos trimestres, o que poderia ser um reflexo da diminuição de pessoas procurando emprego com receio da pandemia. 
+
+Não foi necessário lidar com dados faltantes.
+
+### CAGED - ME-ST
+| Base de Dados |                       Endereço na Web                       |                            Resumo descritivo                            |
+|:-------------:|:-----------------------------------------------------------:|:-----------------------------------------------------------------------:|
+| CAGED - ME-ST | https://www.gov.br/trabalho/pt-br/assuntos/empregador/caged | Dados sobre empregados contratados e demitidos seguindo o regime da CLT |
+
+O Cadastro Geral de Empregados e Desempregados (Caged), é um Registro Administrativo, derivado do cumprimento de obrigação trabalhista definida pela Lei nº 4.923, de 23 de dezembro de 1965, de periodicidade mensal, cujo objetivo é monitorar a evolução do mercado de trabalho formal. Os dados estatísticos do Caged são obtidos a partir de declarações enviadas mensalmente pelos estabelecimentos, que dizem respeito à movimentação de empregados ao longo do mês (MINISTÉRIO da ECONOMIA, 2020).
+
+A declaração do Caged é obrigatória para todo estabelecimento, privado ou público, que tenha admitido, desligado ou transferido empregado com contrato de trabalho regido pela Consolidação das Leis do Trabalho (CLT). Seu universo de abrangência  limita-se aos empregados formais celetistas, incluindo contratos de trabalho com prazo indeterminado e determinado, aprendizes, trabalhadores intermitentes, por tempo parcial e temporários (para estes últimos, a declaração é opcional). Não estão incluídos no Caged servidores da administração pública direta ou indireta, federal, estadual ou municipal, trabalhadores, autônomos e trabalhadores informais (MINISTÉRIO da ECONOMIA, 2020).
+
+Originalmente criado para fins operacionais, o Caged constitui hoje uma das principais fontes de informações estatísticas sobre o mercado de trabalho conjuntural formal, sendo amplamente utilizado por órgãos governamentais, centros de pesquisa, consultorias privadas e academia. Sua base de dados inclui informações sobre os vínculos formais, informações individuais dos trabalhadores, além de características dos estabelecimentos, sendo a única fonte de informação sobre emprego formal mensal.  (MINISTÉRIO da ECONOMIA, 2020)
+
+Após arguição com a professora Thaís o grupo, preferiu investigar dados  menores,  e limitamos o trabalho ao estado de São Paulo, para isso, foi selecionado as 20 cidades mais populosas do estado, concomitante às mesmas selecionadas pelos dados ofertados do IPT. Os dados do CAGED estão disponíveis de forma pública no endereço: https://www.gov.br/trabalho/pt-br/assuntos/empregador/caged. Foi realizada uma análise em conjunto com o grupo de alunos para compreender os dados da planilha, a partir deste entendimento, optou-se em utilizar os dados de estoque que significa o número de trabalhadores formais por cidade selecionada.
+
+Como pode ser observado no gráfico 2 a série histórica aproximadamente constante para estas 20 cidades (total de empregados no regime CLT) ao longo do ano de 2020. No entanto, como apontado na reportagem do Jornal Nacional entitulada: "[Pesquisas sobre nível de emprego podem ter deixado de apresentar retrato preciso do mercado de trabalho, dizem especialistas](https://globoplay.globo.com/v/9479568/)", os dados do CAGED podem ter deixado de refletir a situação do desemprego em conjunto com a PNAD.
+
+![ Evolução CAGED 2020.](./assets/caged.svg)
 
 # Metodologia
-O projeto de pesquisa usará o modelo _KDDM_ seguindo a metodologia de [1] dividida em 9 passos:
+O projeto de pesquisa usará o modelo _KDDM_ seguindo a metodologia de (FAYYAD,1996) dividida em 9 passos:
 
 1. Desenvolvimento do projeto e entendimento do problema; 
 2. Criação de conjunto de dados alvo;
@@ -67,25 +148,19 @@ Para execução desta metodologia, esperamos empregar as seguintes técnicas de 
 # Ferramentas
 
 As ferramentas que serão utilizadas dentro deste projeto serão:
-* Python
-    * Dados:
-        * Pandas;
-        * Numpy;
-        * Scikit-learn;
-        * Statsmodels;
-    * Web scraping(?):
-        * Selenium;
-        * Requests;
-        * Beautiful Soup;
-* Javascript/Typescript:
-    * Web scraping(?):
-        * Puppeteer;
+* Python 3.6.9
+    * [Pandas](https://pandas.pydata.org/);
+    * [Numpy](https://numpy.org/);
+    * [Scikit-learn](https://scikit-learn.org/stable/);
+    * [Statsmodels](https://www.statsmodels.org/stable/index.html);
+    * [Seaborn](https://seaborn.pydata.org/);
+    * [Matplotlib](https://matplotlib.org/stable/users/installing.html);
+    * [Pillow](https://pillow.readthedocs.io/en/stable/)
+* Gerenciamento de planilhas:
+    * MS Excel e Google Sheets;
 * Armazenagem e Computação em Nuvem:
-    * AWS - S3 (?);
     * Google Drive;
     * Google Colab;
-
-**NOTA:** as ferramentas marcadas com (?) são as menos prováveis de usarmos ao longo do projeto, mas que podem vir a ser necessárias. Elas serão removidas desta lista à medida que o desenvolvimento do projeto avançar e sua necessidade ficar mais clara.
 
 # Cronograma
 |                           -                           	|  Abril 	||  Maio  	||  Junho 	||  Julho 	|
@@ -105,7 +180,20 @@ As ferramentas que serão utilizadas dentro deste projeto serão:
 | Apresentações                                         	|        	|        	|        	|        	|        	|    X   	|    X   	|
 
 # Referências Acadêmicas
-[1] Fayyad, U., Piatetsky-Shapiro, G., & Smyth, P. (1996). From Data Mining to Knowledge Discovery in Databases. AI Magazine, 17(3), 37. https://doi.org/10.1609/aimag.v17i3.1230
+Fayyad, U., Piatetsky-Shapiro, G., & Smyth, P. (1996). From Data Mining to Knowledge Discovery in Databases. AI Magazine, 17(3), 37. https://doi.org/10.1609/aimag.v17i3.1230
+
+Suliano D. Caracterização das Pesquisas Domiciliares com Ênfase na PNAD Contínua. Ceará; 2017. 
+
+Instituto Brasileiro de Geografia e Estatística (IBGE). O IBGE apoiando o combate a COVID-19 [Internet]. [cited 2021 May 5]. Available from: https://covid19.ibge.gov.br/pnad-covid/
+
+Instituto Brasileiro de Geografia e Estatística. Pesquisa Nacional por Amostra de Domicílios Contínua - PNAD Contínua [Internet]. [cited 2021 May 5]. Available from: https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html?=&t=o-que-e
+Instituto de Pesquisa Econômica Aplicada. Ministério do Trabalho. Mercado de trabalho: conjuntura e análise. Brasília; 2019. 
+
+Corseuil CHL, Ramos L, Azevedo B de S, Russo FM. Mais sobre as diferenças na evolução do emprego formal na PNAD contínua e no CAGED. 2019. 
+
+Ministério da Economia. Nota Técnica: Substituição da captação dos dados do Caged pelo eSocial. 2020. Disponível em: http://pdet.mte.gov.br/o-que-e-novo-caged.
+
+
 
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
