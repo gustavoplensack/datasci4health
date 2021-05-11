@@ -131,7 +131,7 @@ Como pode ser observado no gráfico 2 a série histórica aproximadamente consta
 ![ Evolução CAGED 2020.](./assets/caged.svg)
 
 # Metodologia
-O projeto de pesquisa usará o modelo _KDDM_ seguindo a metodologia de [1] dividida em 9 passos:
+O projeto de pesquisa usará o modelo _KDDM_ seguindo a metodologia de (FAYYAD,1996) dividida em 9 passos:
 
 1. Desenvolvimento do projeto e entendimento do problema; 
 2. Criação de conjunto de dados alvo;
@@ -180,7 +180,20 @@ As ferramentas que serão utilizadas dentro deste projeto serão:
 | Apresentações                                         	|        	|        	|        	|        	|        	|    X   	|    X   	|
 
 # Referências Acadêmicas
-[1] Fayyad, U., Piatetsky-Shapiro, G., & Smyth, P. (1996). From Data Mining to Knowledge Discovery in Databases. AI Magazine, 17(3), 37. https://doi.org/10.1609/aimag.v17i3.1230
+Fayyad, U., Piatetsky-Shapiro, G., & Smyth, P. (1996). From Data Mining to Knowledge Discovery in Databases. AI Magazine, 17(3), 37. https://doi.org/10.1609/aimag.v17i3.1230
+
+Suliano D. Caracterização das Pesquisas Domiciliares com Ênfase na PNAD Contínua. Ceará; 2017. 
+
+Instituto Brasileiro de Geografia e Estatística (IBGE). O IBGE apoiando o combate a COVID-19 [Internet]. [cited 2021 May 5]. Available from: https://covid19.ibge.gov.br/pnad-covid/
+
+Instituto Brasileiro de Geografia e Estatística. Pesquisa Nacional por Amostra de Domicílios Contínua - PNAD Contínua [Internet]. [cited 2021 May 5]. Available from: https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html?=&t=o-que-e
+Instituto de Pesquisa Econômica Aplicada. Ministério do Trabalho. Mercado de trabalho: conjuntura e análise. Brasília; 2019. 
+
+Corseuil CHL, Ramos L, Azevedo B de S, Russo FM. Mais sobre as diferenças na evolução do emprego formal na PNAD contínua e no CAGED. 2019. 
+
+Ministério da Economia. Nota Técnica: Substituição da captação dos dados do Caged pelo eSocial. 2020. Disponível em: http://pdet.mte.gov.br/o-que-e-novo-caged.
+
+
 
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
