@@ -113,6 +113,23 @@ Por fim, o nível de pessoas fora da força de trabalho manteve-se estável ao l
 
 Não foi necessário lidar com dados faltantes.
 
+### CAGED - ME-ST
+| Base de Dados |                       Endereço na Web                       |                            Resumo descritivo                            |
+|:-------------:|:-----------------------------------------------------------:|:-----------------------------------------------------------------------:|
+| CAGED - ME-ST | https://www.gov.br/trabalho/pt-br/assuntos/empregador/caged | Dados sobre empregados contratados e demitidos seguindo o regime da CLT |
+
+O Cadastro Geral de Empregados e Desempregados (Caged), é um Registro Administrativo, derivado do cumprimento de obrigação trabalhista definida pela Lei nº 4.923, de 23 de dezembro de 1965, de periodicidade mensal, cujo objetivo é monitorar a evolução do mercado de trabalho formal. Os dados estatísticos do Caged são obtidos a partir de declarações enviadas mensalmente pelos estabelecimentos, que dizem respeito à movimentação de empregados ao longo do mês (MINISTÉRIO da ECONOMIA, 2020).
+
+A declaração do Caged é obrigatória para todo estabelecimento, privado ou público, que tenha admitido, desligado ou transferido empregado com contrato de trabalho regido pela Consolidação das Leis do Trabalho (CLT). Seu universo de abrangência  limita-se aos empregados formais celetistas, incluindo contratos de trabalho com prazo indeterminado e determinado, aprendizes, trabalhadores intermitentes, por tempo parcial e temporários (para estes últimos, a declaração é opcional). Não estão incluídos no Caged servidores da administração pública direta ou indireta, federal, estadual ou municipal, trabalhadores, autônomos e trabalhadores informais (MINISTÉRIO da ECONOMIA, 2020).
+
+Originalmente criado para fins operacionais, o Caged constitui hoje uma das principais fontes de informações estatísticas sobre o mercado de trabalho conjuntural formal, sendo amplamente utilizado por órgãos governamentais, centros de pesquisa, consultorias privadas e academia. Sua base de dados inclui informações sobre os vínculos formais, informações individuais dos trabalhadores, além de características dos estabelecimentos, sendo a única fonte de informação sobre emprego formal mensal.  (MINISTÉRIO da ECONOMIA, 2020)
+
+Após arguição com a professora Thaís o grupo, preferiu investigar dados  menores,  e limitamos o trabalho ao estado de São Paulo, para isso, foi selecionado as 20 cidades mais populosas do estado, concomitante às mesmas selecionadas pelos dados ofertados do IPT. Os dados do CAGED estão disponíveis de forma pública no endereço: https://www.gov.br/trabalho/pt-br/assuntos/empregador/caged. Foi realizada uma análise em conjunto com o grupo de alunos para compreender os dados da planilha, a partir deste entendimento, optou-se em utilizar os dados de estoque que significa o número de trabalhadores formais por cidade selecionada.
+
+Como pode ser observado no gráfico 2 a série histórica aproximadamente constante para estas 20 cidades (total de empregados no regime CLT) ao longo do ano de 2020. No entanto, como apontado na reportagem do Jornal Nacional entitulada: "[Pesquisas sobre nível de emprego podem ter deixado de apresentar retrato preciso do mercado de trabalho, dizem especialistas](https://globoplay.globo.com/v/9479568/)", os dados do CAGED podem ter deixado de refletir a situação do desemprego em conjunto com a PNAD.
+
+![ Evolução CAGED 2020.](./assets/caged.svg)
+
 # Metodologia
 O projeto de pesquisa usará o modelo _KDDM_ seguindo a metodologia de [1] dividida em 9 passos:
 
