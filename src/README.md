@@ -16,4 +16,4 @@ pip install -r requirements.txt
 Possui os scripts para processar os dados processados partindo dos dados brutos contidos em `<repo_root>/data/external/`. Basta executar o script `generate.py` contido em `src/data/`. 
 
 ### `src/visualization/`
-Possui os scripts para gerar as visualizações usadas neste projeto. Para gerar as visualizações, basta executar o script `generate.py` contido em `src/visualization/`.
+Possui os scripts para gerar as visualizações usadas neste projeto. Para gerar as visualizações, basta executar o script `visualize.py` contido em `src/visualization/`.
