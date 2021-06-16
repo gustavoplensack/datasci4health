@@ -1,0 +1,140 @@
+Município,Classificação ,Valor de Display Classificação
+ARUJÁ,1,DRS I - Grande São Paulo
+BARUERI,1,DRS I - Grande São Paulo
+CAIEIRAS,1,DRS I - Grande São Paulo
+CAJAMAR,1,DRS I - Grande São Paulo
+CARAPICUÍBA,1,DRS I - Grande São Paulo
+COTIA,1,DRS I - Grande São Paulo
+DIADEMA,1,DRS I - Grande São Paulo
+EMBU DAS ARTES,1,DRS I - Grande São Paulo
+EMBU-GUAÇU,1,DRS I - Grande São Paulo
+FERRAZ DE VASCONCELOS,1,DRS I - Grande São Paulo
+FRANCISCO MORATO,1,DRS I - Grande São Paulo
+FRANCO DA ROCHA,1,DRS I - Grande São Paulo
+GUARULHOS,1,DRS I - Grande São Paulo
+ITAPECERICA DA SERRA,1,DRS I - Grande São Paulo
+ITAPEVI,1,DRS I - Grande São Paulo
+ITAQUAQUECETUBA,1,DRS I - Grande São Paulo
+JANDIRA,1,DRS I - Grande São Paulo
+MAIRIPORÃ,1,DRS I - Grande São Paulo
+MAUÁ,1,DRS I - Grande São Paulo
+MOGI DAS CRUZES,1,DRS I - Grande São Paulo
+OSASCO,1,DRS I - Grande São Paulo
+POÁ,1,DRS I - Grande São Paulo
+RIBEIRÃO PIRES,1,DRS I - Grande São Paulo
+RIO GRANDE DA SERRA,1,DRS I - Grande São Paulo
+SANTA ISABEL,1,DRS I - Grande São Paulo
+SANTANA DE PARNAÍBA,1,DRS I - Grande São Paulo
+SANTO ANDRÉ,1,DRS I - Grande São Paulo
+SÃO BERNARDO DO CAMPO,1,DRS I - Grande São Paulo
+SÃO CAETANO DO SUL,1,DRS I - Grande São Paulo
+SÃO PAULO,1,DRS I - Grande São Paulo
+SUZANO,1,DRS I - Grande São Paulo
+TABOÃO DA SERRA,1,DRS I - Grande São Paulo
+VARGEM GRANDE PAULISTA,1,DRS I - Grande São Paulo
+ANDRADINA,2,DRS II - Araçatuba
+ARAÇATUBA,2,DRS II - Araçatuba
+BIRIGUI,2,DRS II - Araçatuba
+PENÁPOLIS,2,DRS II - Araçatuba
+ARARAQUARA,3,DRS III - Araraquara
+IBITINGA,3,DRS III - Araraquara
+MATÃO,3,DRS III - Araraquara
+PORTO FERREIRA,3,DRS III - Araraquara
+SÃO CARLOS,3,DRS III - Araraquara
+TAQUARITINGA,3,DRS III - Araraquara
+BERTIOGA,4,DRS IV - Baixada Santista
+CUBATÃO,4,DRS IV - Baixada Santista
+GUARUJÁ,4,DRS IV - Baixada Santista
+ITANHAÉM,4,DRS IV - Baixada Santista
+MONGAGUÁ,4,DRS IV - Baixada Santista
+PERUÍBE,4,DRS IV - Baixada Santista
+PRAIA GRANDE,4,DRS IV - Baixada Santista
+SANTOS,4,DRS IV - Baixada Santista
+SÃO VICENTE,4,DRS IV - Baixada Santista
+BARRETOS,5,DRS V - Barretos
+BEBEDOURO,5,DRS V - Barretos
+OLÍMPIA,5,DRS V - Barretos
+AVARÉ,6,DRS VI - Bauru
+BAURU,6,DRS VI - Bauru
+BOTUCATU,6,DRS VI - Bauru
+JAÚ,6,DRS VI - Bauru
+LENÇÓIS PAULISTA,6,DRS VI - Bauru
+LINS,6,DRS VI - Bauru
+AMERICANA,7,DRS VII - Campinas
+AMPARO,7,DRS VII - Campinas
+ARTUR NOGUEIRA,7,DRS VII - Campinas
+ATIBAIA,7,DRS VII - Campinas
+BRAGANÇA PAULISTA,7,DRS VII - Campinas
+CAMPINAS,7,DRS VII - Campinas
+CAMPO LIMPO PAULISTA,7,DRS VII - Campinas
+COSMÓPOLIS,7,DRS VII - Campinas
+HORTOLÂNDIA,7,DRS VII - Campinas
+INDAIATUBA,7,DRS VII - Campinas
+ITATIBA,7,DRS VII - Campinas
+ITUPEVA,7,DRS VII - Campinas
+JAGUARIÚNA,7,DRS VII - Campinas
+JUNDIAÍ,7,DRS VII - Campinas
+MONTE MOR,7,DRS VII - Campinas
+NOVA ODESSA,7,DRS VII - Campinas
+PAULÍNIA,7,DRS VII - Campinas
+SANTA BÁRBARA D'OESTE,7,DRS VII - Campinas
+SUMARÉ,7,DRS VII - Campinas
+VALINHOS,7,DRS VII - Campinas
+VÁRZEA PAULISTA,7,DRS VII - Campinas
+VINHEDO,7,DRS VII - Campinas
+FRANCA,8,DRS VIII - Franca
+SÃO JOAQUIM DA BARRA,8,DRS VIII - Franca
+ASSIS,9,DRS IX - Marília
+MARÍLIA,9,DRS IX - Marília
+OURINHOS,9,DRS IX - Marília
+TUPÃ,9,DRS IX - Marília
+ARARAS,10,DRS X - Piracicaba
+CAPIVARI,10,DRS X - Piracicaba
+LEME,10,DRS X - Piracicaba
+LIMEIRA,10,DRS X - Piracicaba
+PIRACICABA,10,DRS X - Piracicaba
+PIRASSUNUNGA,10,DRS X - Piracicaba
+RIO CLARO,10,DRS X - Piracicaba
+PRESIDENTE PRUDENTE,11,DRS XI - Presidente Prudente
+REGISTRO,12,DRS XII - Registro
+BATATAIS,13,DRS XIII - Ribeirão Preto
+JABOTICABAL,13,DRS XIII - Ribeirão Preto
+MONTE ALTO,13,DRS XIII - Ribeirão Preto
+RIBEIRÃO PRETO,13,DRS XIII - Ribeirão Preto
+SERTÃOZINHO,13,DRS XIII - Ribeirão Preto
+ITAPIRA,14,DRS XIV - São João da Boa Vista
+MOCOCA,14,DRS XIV - São João da Boa Vista
+MOGI GUAÇU,14,DRS XIV - São João da Boa Vista
+MOGI MIRIM,14,DRS XIV - São João da Boa Vista
+SÃO JOÃO DA BOA VISTA,14,DRS XIV - São João da Boa Vista
+SÃO JOSÉ DO RIO PARDO,14,DRS XIV - São João da Boa Vista
+CATANDUVA,15,DRS XV - São José do Rio Preto
+FERNANDÓPOLIS,15,DRS XV - São José do Rio Preto
+MIRASSOL,15,DRS XV - São José do Rio Preto
+SÃO JOSÉ DO RIO PRETO,15,DRS XV - São José do Rio Preto
+VOTUPORANGA,15,DRS XV - São José do Rio Preto
+BOITUVA,16,DRS XVI - Sorocaba
+IBIÚNA,16,DRS XVI - Sorocaba
+ITAPETININGA,16,DRS XVI - Sorocaba
+ITAPEVA,16,DRS XVI - Sorocaba
+ITARARÉ,16,DRS XVI - Sorocaba
+ITU,16,DRS XVI - Sorocaba
+PIEDADE,16,DRS XVI - Sorocaba
+PORTO FELIZ,16,DRS XVI - Sorocaba
+SALTO,16,DRS XVI - Sorocaba
+SÃO ROQUE,16,DRS XVI - Sorocaba
+SOROCABA,16,DRS XVI - Sorocaba
+TATUÍ,16,DRS XVI - Sorocaba
+VOTORANTIM,16,DRS XVI - Sorocaba
+CAÇAPAVA,17,DRS XVII - Taubaté
+CAMPOS DO JORDÃO,17,DRS XVII - Taubaté
+CARAGUATATUBA,17,DRS XVII - Taubaté
+CRUZEIRO,17,DRS XVII - Taubaté
+GUARATINGUETÁ,17,DRS XVII - Taubaté
+JACAREÍ,17,DRS XVII - Taubaté
+LORENA,17,DRS XVII - Taubaté
+PINDAMONHANGABA,17,DRS XVII - Taubaté
+SÃO JOSÉ DOS CAMPOS,17,DRS XVII - Taubaté
+SÃO SEBASTIÃO,17,DRS XVII - Taubaté
+TAUBATÉ,17,DRS XVII - Taubaté
+UBATUBA,17,DRS XVII - Taubaté

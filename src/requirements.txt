@@ -2,7 +2,9 @@ autopep8==1.5.4
 backcall==0.2.0
 cycler==0.10.0
 decorator==5.0.7
+folium==0.12.1
 flake8==3.8.4
+GitPython==3.1.17
 importlib-metadata==4.0.1
 ipykernel==5.5.4
 ipython==7.16.1
