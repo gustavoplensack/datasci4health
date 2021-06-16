@@ -5,6 +5,8 @@ Visualize CAGED series São Paulo state regions
 from typing import Optional
 
 import pandas as pd
+from numpy.core.fromnumeric import size
+from pandas.io.formats.format import CategoricalFormatter
 
 CAGED_SERIES_OPTIONS = ['Saldos', 'Estoque', 'Admissões', 'Desligamentos']
 
@@ -59,10 +61,18 @@ def visualize_caged_by_region(
     # Traspose to get a timeseries-like
     caged_selected_series = caged_selected_series.transpose(copy=True)
 
+    if region is None:
+        caged_selected_series =\
+            (caged_selected_series - caged_selected_series.min(axis=0)) / \
+            (caged_selected_series.max(axis=0) - caged_selected_series.min(axis=0))
+
     # Plot an image, add grid and rotate ticks for better fitting
-    plot = caged_selected_series.plot()
+    plot = caged_selected_series.plot(figsize=(32, 16))
     plot.grid(True)
     plot.tick_params(rotation=15)
+
+    plot.legend(title='DRS', bbox_to_anchor=(1.01, 1),
+                loc='upper left', fontsize='xx-small')
 
     # Set image title and filename
     if region is None:
