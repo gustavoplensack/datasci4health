@@ -23,6 +23,7 @@ def visualize_caged_by_region(
     Args:
         - caged_with_region_path: path to caged CSV data. This data is tracked
         at this repo with the name `annotated_caged.csv`.
+        - output_path: path where the plot will be saved.
         - region: define a given region to plot. If not specified plot
         for all regions.
         - series: value from the series that will
