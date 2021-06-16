@@ -4,7 +4,7 @@ Generate visualizations
 
 from git import Repo
 
-from visualization import visualize_caged_by_region
+from visualization import caged_heatmap_by_region, visualize_caged_by_region
 
 REPO_ROOT = Repo(path='.', search_parent_directories=True).git.rev_parse(
     "--show-toplevel")
@@ -31,6 +31,14 @@ def visualize():
         caged_with_region_path=caged_with_region_path,
         output_path=GENERATED_IMAGES_FOLDER,
         # region='DRS XIII - Ribeirão Preto',
+        series='Estoque'
+    )
+
+    # Generate caged visualization per
+    caged_heatmap_by_region(
+        caged_with_region_path=caged_with_region_path,
+        output_path=GENERATED_IMAGES_FOLDER,
+        region='DRS XIII - Ribeirão Preto',
         series='Estoque'
     )
 
