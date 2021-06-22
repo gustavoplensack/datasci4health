@@ -68,14 +68,20 @@ def caged_heatmap_by_region(
             (caged_selected_series.max(axis=0) - caged_selected_series.min(axis=0))
 
     # Plot an image, add grid and rotate ticks for better fitting
-    _, ax = plt.subplots(figsize=(32, 24))
+    sns.set(font_scale=5)
+    _, ax = plt.subplots(figsize=(50, 32))
+
+    if series == 'Desligamentos':
+        caged_selected_series = -1 * caged_selected_series
+
     ax = sns.heatmap(caged_selected_series, cmap='RdYlGn',
-                     linewidths=0.30, annot=True)
+                     linewidths=0.30, annot=False)
 
     # Set image title and filename
     if region is None:
-        ax.set_title(f'{series}-CAGED')
+        ax.set_title(f'{series} normalizado-CAGED')
         ax.get_figure().savefig(f'{output_path}/caged-{series}-heatmap.png')
+
     else:
         ax.set_title(f'{series}-CAGED@{region}')
         ax.get_figure().savefig(
