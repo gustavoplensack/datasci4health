@@ -63,8 +63,6 @@ def annotate_caged(
         lambda x: _remove_accentuation(x)
     )
 
-    sp_drs_map_df.to_csv('teste.csv')
-
     annotated_caged_df = caged_df.merge(
         sp_drs_map_df, on='Município', how='left'
     )
