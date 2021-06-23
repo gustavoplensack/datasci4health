@@ -1,0 +1,148 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Carol\Desktop\aula - ciência e visualização de dados em saúde\projeto ciencia de dados\novos\correlações iniciais.log
+  log type:  text
+ opened on:  15 Jun 2021, 15:21:57
+
+. *correlação dos dados da PNAD com CAGED
+
+. spearman n_desocupados n_ocupados n_fora_forca_trabalho totadmisso totdesligame saldo, stats(rho p)
+(obs=16)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | n_deso~s n_ocup~s n_fora~o totadm~o totdes~e    saldo
+-------------+------------------------------------------------------
+n_desocupa~s |   1.0000 
+             | 
+             |
+  n_ocupados |  -0.4273   1.0000 
+             |   0.0988 
+             |
+n_fora_for~o |   0.7545  -0.7545   1.0000 
+             |   0.0007   0.0007 
+             |
+  totadmisso |   0.5822   0.1881   0.3941   1.0000 
+             |   0.0180   0.4855   0.1310 
+             |
+totdesligame |   0.1105   0.4000  -0.1403   0.4176   1.0000 
+             |   0.6838   0.1247   0.6042   0.1075 
+             |
+       saldo |   0.6538  -0.0806   0.5732   0.8324  -0.0471   1.0000 
+             |   0.0060   0.7667   0.0203   0.0001   0.8626 
+             |
+
+. *correlação dos dados da PNAD com isolamento estado de SP
+
+. spearman n_desocupados n_ocupados n_fora_forca_trabalho  iso_sp, stats(rho p)
+(obs=18)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | n_deso~s n_ocup~s n_fora~o   iso_sp
+-------------+------------------------------------
+n_desocupa~s |   1.0000 
+             | 
+             |
+  n_ocupados |  -0.6000   1.0000 
+             |   0.0085 
+             |
+n_fora_for~o |   0.8286  -0.8286   1.0000 
+             |   0.0000   0.0000 
+             |
+      iso_sp |   0.3833  -0.6748   0.3833   1.0000 
+             |   0.1164   0.0021   0.1164 
+             |
+
+. *correlação dos dados do CAGED com isolamento estado de SP
+
+. spearman totadmisso totdesligame saldo  iso_sp, stats(rho p)
+(obs=16)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | totadm~o totdes~e    saldo   iso_sp
+-------------+------------------------------------
+  totadmisso |   1.0000 
+             | 
+             |
+totdesligame |   0.4176   1.0000 
+             |   0.1075 
+             |
+       saldo |   0.8324  -0.0471   1.0000 
+             |   0.0001   0.8626 
+             |
+      iso_sp |  -0.3245   0.0354  -0.3864   1.0000 
+             |   0.2201   0.8964   0.1393 
+             |
+
+. *correlação dos dados da PNAD por setores com isolamento estado de SP
+
+. spearman agricultura industria construcao comercio transporte alimentos_hospedagem informacao educacao_defesa_saude outros servico_domestico iso_sp
+> , stats(rho p)
+(obs=18)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | agricu~a indust~a constr~o comercio transp~e alimen~m inform~o educac~e   outros servic~o   iso_sp
+-------------+---------------------------------------------------------------------------------------------------
+ agricultura |   1.0000 
+             | 
+             |
+   industria |  -0.5429   1.0000 
+             |   0.0199 
+             |
+  construcao |  -0.1429   0.6571   1.0000 
+             |   0.5717   0.0030 
+             |
+    comercio |  -0.2571   0.8857   0.7714   1.0000 
+             |   0.3030   0.0000   0.0002 
+             |
+  transporte |  -0.6571   0.8286   0.7143   0.6000   1.0000 
+             |   0.0030   0.0000   0.0009   0.0085 
+             |
+alimentos_~m |  -0.4857   0.6571   0.5429   0.7714   0.4857   1.0000 
+             |   0.0410   0.0030   0.0199   0.0002   0.0410 
+             |
+  informacao |  -0.4857   0.7143   0.3143   0.7714   0.3143   0.6571   1.0000 
+             |   0.0410   0.0009   0.2040   0.0002   0.2040   0.0030 
+             |
+educacao_d~e |  -0.3714   0.3714  -0.2000   0.1429   0.1429  -0.2000   0.5429   1.0000 
+             |   0.1291   0.1291   0.4262   0.5717   0.5717   0.4262   0.0199 
+             |
+      outros |  -0.8286   0.8286   0.4857   0.6000   0.8857   0.7143   0.4857   0.1429   1.0000 
+             |   0.0000   0.0000   0.0410   0.0085   0.0000   0.0009   0.0410   0.5717 
+             |
+servico_do~o |  -0.8286   0.8286   0.4857   0.6000   0.8857   0.7143   0.4857   0.1429   1.0000   1.0000 
+             |   0.0000   0.0000   0.0410   0.0085   0.0000   0.0009   0.0410   0.5717   0.0000 
+             |
+      iso_sp |   0.0412  -0.6748  -0.6494  -0.8015  -0.4340  -0.5480  -0.5354  -0.0539  -0.3833  -0.3833   1.0000 
+             |   0.8711   0.0021   0.0035   0.0001   0.0719   0.0185   0.0220   0.8319   0.1164   0.1164 
+             |
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Carol\Desktop\aula - ciência e visualização de dados em saúde\projeto ciencia de dados\novos\correlações iniciais.log
+  log type:  text
+ closed on:  15 Jun 2021, 15:24:13
+-----------------------------------------------------------------------------------------------------------------------------------------------------

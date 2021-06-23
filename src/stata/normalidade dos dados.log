@@ -1,0 +1,110 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Carol\Desktop\aula - ciência e visualização de dados em saúde\projeto ciencia de dados\novos\normalidade dos dados.log
+  log type:  text
+ opened on:  15 Jun 2021, 14:56:11
+
+. * verificação da normalidade dos dados referentes ao isolamento das regiões e estado de SP
+
+. swilk iso_set_1 iso_set_2 iso_set_3 iso_set_4 iso_set_5 iso_set_6 iso_set_7 iso_set_8 iso_set_9 iso_set_10 iso_set_11 iso_set_12 iso_set_13 iso_set
+> _14 iso_set_15 iso_set_16 iso_set_17 iso_sp
+
+                   Shapiro-Wilk W test for normal data
+
+    Variable |    Obs       W           V         z       Prob>z
+-------------+--------------------------------------------------
+   iso_set_1 |     18    0.76174      5.237     3.314    0.00046
+   iso_set_2 |     18    0.67981      7.038     3.906    0.00005
+   iso_set_3 |     18    0.67243      7.200     3.951    0.00004
+   iso_set_4 |     18    0.72376      6.072     3.610    0.00015
+   iso_set_5 |     18    0.70346      6.518     3.752    0.00009
+   iso_set_6 |     18    0.71863      6.185     3.647    0.00013
+   iso_set_7 |     18    0.73551      5.814     3.523    0.00021
+   iso_set_8 |     18    0.62732      8.192     4.210    0.00001
+   iso_set_9 |     18    0.73025      5.930     3.563    0.00018
+  iso_set_10 |     18    0.72571      6.029     3.596    0.00016
+  iso_set_11 |     18    0.74379      5.632     3.460    0.00027
+  iso_set_12 |     18    0.69937      6.608     3.780    0.00008
+  iso_set_13 |     18    0.65471      7.590     4.057    0.00002
+  iso_set_14 |     18    0.66592      7.344     3.991    0.00003
+  iso_set_15 |     18    0.68970      6.821     3.843    0.00006
+  iso_set_16 |     18    0.73877      5.742     3.498    0.00023
+  iso_set_17 |     18    0.77500      4.946     3.200    0.00069
+      iso_sp |     18    0.73409      5.845     3.534    0.00020
+
+. * verificação da normalidade dos dados referentes aos dados da PNAD geral
+
+. swilk n_desocupados n_ocupados n_fora_forca_trabalho
+
+                   Shapiro-Wilk W test for normal data
+
+    Variable |    Obs       W           V         z       Prob>z
+-------------+--------------------------------------------------
+n_desocupa~s |     18    0.83551      3.616     2.573    0.00505
+  n_ocupados |     18    0.87172      2.820     2.075    0.01900
+n_fora_for~o |     18    0.77057      5.043     3.239    0.00060
+
+. * verificação da normalidade dos dados referentes ao CAGED geral
+
+. swilk totadmisso totdesligame saldo
+
+                   Shapiro-Wilk W test for normal data
+
+    Variable |    Obs       W           V         z       Prob>z
+-------------+--------------------------------------------------
+  totadmisso |     16    0.93566      1.304     0.527    0.29921
+totdesligame |     16    0.91270      1.769     1.133    0.12865
+       saldo |     16    0.90718      1.881     1.255    0.10481
+
+. * verificação da normalidade dos dados por setores da economia - PNAD
+
+. swilk agricultura industria construcao comercio transporte alimentos_hospedagem informacao educacao_defesa_saude outros servico_domestico
+
+                   Shapiro-Wilk W test for normal data
+
+    Variable |    Obs       W           V         z       Prob>z
+-------------+--------------------------------------------------
+ agricultura |     18    0.91792      1.804     1.181    0.11876
+   industria |     18    0.96588      0.750    -0.576    0.71762
+  construcao |     18    0.82718      3.799     2.672    0.00378
+    comercio |     18    0.93295      1.474     0.776    0.21874
+  transporte |     18    0.90622      2.061     1.448    0.07383
+alimentos_~m |     18    0.77161      5.020     3.230    0.00062
+  informacao |     18    0.95063      1.085     0.164    0.43491
+educacao_d~e |     18    0.78085      4.817     3.147    0.00082
+      outros |     18    0.86398      2.990     2.192    0.01418
+servico_do~o |     18    0.84085      3.498     2.507    0.00609
+
+. * verificação da normalidade dos dados de saldo dos municipios de SP
+
+. swilk saldos_g_sp saldo_aracatuba saldo_araraq saldo_bsantista saldo_marilia saldo_barretos saldo_bauru saldo_cps saldo_franca saldo_pira saldo_ppr
+> udente saldo_registro saldo_ribpreto saldo_sjboavista saldo_sjriopreto saldo_sorocaba saldo_taubate
+
+                   Shapiro-Wilk W test for normal data
+
+    Variable |    Obs       W           V         z       Prob>z
+-------------+--------------------------------------------------
+ saldos_g_sp |     14    0.89673      1.911     1.275    0.10113
+saldo_arac~a |     14    0.85500      2.683     1.943    0.02599
+saldo_araraq |     14    0.83016      3.143     2.255    0.01208
+saldo_bsan~a |     14    0.90282      1.798     1.156    0.12394
+saldo_mari~a |     14    0.86269      2.541     1.836    0.03317
+saldo_barr~s |     14    0.90282      1.798     1.156    0.12394
+ saldo_bauru |     14    0.81511      3.422     2.422    0.00772
+   saldo_cps |     14    0.88350      2.156     1.513    0.06520
+saldo_franca |     14    0.85436      2.695     1.952    0.02547
+  saldo_pira |     14    0.85283      2.724     1.973    0.02427
+saldo_ppru~e |     14    0.95247      0.880    -0.252    0.59966
+saldo_regi~o |     14    0.86197      2.554     1.846    0.03242
+saldo_ribp~o |     14    0.85403      2.701     1.956    0.02521
+saldo_sjbo~a |     14    0.93455      1.211     0.377    0.35300
+saldo_sjri~o |     14    0.84999      2.776     2.010    0.02220
+saldo_soro~a |     14    0.88127      2.197     1.550    0.06058
+saldo_taub~e |     14    0.91362      1.599     0.924    0.17787
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Carol\Desktop\aula - ciência e visualização de dados em saúde\projeto ciencia de dados\novos\normalidade dos dados.log
+  log type:  text
+ closed on:  15 Jun 2021, 14:59:23
+-----------------------------------------------------------------------------------------------------------------------------------------------------

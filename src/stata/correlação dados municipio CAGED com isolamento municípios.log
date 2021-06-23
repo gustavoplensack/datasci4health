@@ -1,0 +1,535 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Carol\Desktop\aula - ciência e visualização de dados em saúde\projeto ciencia de dados\novos\correlação dados municipio CAGED c
+> om isolamento municípios.log
+  log type:  text
+ opened on:  15 Jun 2021, 15:25:36
+
+. spearman  estoque_taubate adm_taubate deslig_taubate saldo_taubate iso_set_17, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | esto~ate adm_ta~e desl~ate sald~ate iso_s~17
+-------------+---------------------------------------------
+estoque_ta~e |   1.0000 
+             | 
+             |
+ adm_taubate |   0.6799   1.0000 
+             |   0.0075 
+             |
+deslig_tau~e |   0.7407   0.2288   1.0000 
+             |   0.0024   0.4314 
+             |
+saldo_taub~e |   0.2264   0.7943  -0.2571   1.0000 
+             |   0.4364   0.0007   0.3748 
+             |
+  iso_set_17 |  -0.4813  -0.8317  -0.1385  -0.7978   1.0000 
+             |   0.0814   0.0002   0.6369   0.0006 
+             |
+
+. 
+. spearman   estoque_sorocaba adm_sorocaba deslig_sorocaba saldo_sorocaba iso_set_16, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | esto~aba adm_so~a desl~aba sald~aba iso_s~16
+-------------+---------------------------------------------
+estoque_so~a |   1.0000 
+             | 
+             |
+adm_sorocaba |   0.7899   1.0000 
+             |   0.0008 
+             |
+deslig_sor~a |   0.6088   0.2464   1.0000 
+             |   0.0209   0.3957 
+             |
+saldo_soro~a |   0.3846   0.7899  -0.2659   1.0000 
+             |   0.1745   0.0008   0.3581 
+             |
+  iso_set_16 |  -0.5385  -0.6689   0.0110  -0.7495   1.0000 
+             |   0.0470   0.0089   0.9703   0.0020 
+             |
+
+. 
+. spearman   estoque_sjriopreto adm_sjriopreto deslig_sjriopreto saldo_sjriopreto iso_set_15, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | e~opreto adm_sj~o d~opreto s~opreto iso_s~15
+-------------+---------------------------------------------
+estoque_sj~o |   1.0000 
+             | 
+             |
+adm_sjriop~o |   0.6000   1.0000 
+             |   0.0233 
+             |
+deslig_sjr~o |   0.5341   0.4286   1.0000 
+             |   0.0492   0.1263 
+             |
+saldo_sjri~o |   0.2835   0.7275  -0.1780   1.0000 
+             |   0.3260   0.0032   0.5426 
+             |
+  iso_set_15 |  -0.5039  -0.7217  -0.1364  -0.6337   1.0000 
+             |   0.0662   0.0036   0.6419   0.0150 
+             |
+
+. 
+. spearman    estoque_sjboavista adm_sjboavista deslig_sjboavista saldo_sjboavista iso_set_14, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | es~vista adm_sj~a de~vista sa~vista iso_s~14
+-------------+---------------------------------------------
+estoque_sj~a |   1.0000 
+             | 
+             |
+adm_sjboav~a |   0.8286   1.0000 
+             |   0.0003 
+             |
+deslig_sjb~a |   0.4725   0.3451   1.0000 
+             |   0.0880   0.2269 
+             |
+saldo_sjbo~a |   0.4114   0.6491  -0.4334   1.0000 
+             |   0.1438   0.0120   0.1216 
+             |
+  iso_set_14 |  -0.5165  -0.6440  -0.0813  -0.5325   1.0000 
+             |   0.0586   0.0129   0.7823   0.0500 
+             |
+
+. 
+. spearman    estoque_ribpreto adm_ribpreto deslig_ribpreto saldo_ribpreto iso_set_13, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | e~bpreto adm_ri~o d~bpreto s~bpreto iso_s~13
+-------------+---------------------------------------------
+estoque_ri~o |   1.0000 
+             | 
+             |
+adm_ribpreto |   0.7231   1.0000 
+             |   0.0035 
+             |
+deslig_rib~o |   0.7714   0.4110   1.0000 
+             |   0.0012   0.1443 
+             |
+saldo_ribp~o |   0.3011   0.8066  -0.1253   1.0000 
+             |   0.2955   0.0005   0.6696 
+             |
+  iso_set_13 |  -0.1516  -0.4769  -0.0681  -0.3890   1.0000 
+             |   0.6048   0.0846   0.8170   0.1692 
+             |
+
+. 
+. spearman    estoque_registro adm_registro deslig_registro saldo_registro iso_set_12, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | estoq~ro adm_re~o desli~ro saldo~ro iso_s~12
+-------------+---------------------------------------------
+estoque_re~o |   1.0000 
+             | 
+             |
+adm_registro |   0.4286   1.0000 
+             |   0.1263 
+             |
+deslig_reg~o |   0.5567  -0.0572   1.0000 
+             |   0.0387   0.8460 
+             |
+saldo_regi~o |  -0.0154   0.8154  -0.5413   1.0000 
+             |   0.9584   0.0004   0.0456 
+             |
+  iso_set_12 |  -0.1736  -0.6923   0.4004  -0.7758   1.0000 
+             |   0.5528   0.0061   0.1560   0.0011 
+             |
+
+. 
+. spearman    estoque_pprudente adm_pprudente deslig_pprudente saldo_pprudente iso_set_11, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | esto~nte adm_pp~e desl~nte sald~nte iso_s~11
+-------------+---------------------------------------------
+estoque_pp~e |   1.0000 
+             | 
+             |
+adm_pprude~e |   0.7846   1.0000 
+             |   0.0009 
+             |
+deslig_ppr~e |   0.5473   0.1341   1.0000 
+             |   0.0428   0.6477 
+             |
+saldo_ppru~e |   0.4114   0.8097  -0.4026   1.0000 
+             |   0.1438   0.0004   0.1535 
+             |
+  iso_set_11 |  -0.4110  -0.6220   0.0637  -0.6183   1.0000 
+             |   0.1443   0.0176   0.8286   0.0184 
+             |
+
+. 
+. spearman    estoque_pira adm_pira deslig_pira saldo_pira iso_set_10, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | estoq~ra adm_pira desli~ra saldo~ra iso_s~10
+-------------+---------------------------------------------
+estoque_pira |   1.0000 
+             | 
+             |
+    adm_pira |   0.9077   1.0000 
+             |   0.0000 
+             |
+ deslig_pira |   0.6264   0.3363   1.0000 
+             |   0.0165   0.2398 
+             |
+  saldo_pira |   0.4593   0.7187  -0.2703   1.0000 
+             |   0.0985   0.0038   0.3499 
+             |
+  iso_set_10 |  -0.4813  -0.5912  -0.0637  -0.6264   1.0000 
+             |   0.0814   0.0260   0.8286   0.0165 
+             |
+
+. 
+. spearman   estoque_franca adm_franca deslig_franca saldo_franca iso_set_8, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | estoq~ca adm_fr~a desli~ca saldo~ca iso_se~8
+-------------+---------------------------------------------
+estoque_fr~a |   1.0000 
+             | 
+             |
+  adm_franca |   0.7626   1.0000 
+             |   0.0015 
+             |
+deslig_fra~a |   0.2308  -0.2615   1.0000 
+             |   0.4273   0.3664 
+             |
+saldo_franca |   0.4462   0.8857  -0.5824   1.0000 
+             |   0.1098   0.0000   0.0289 
+             |
+   iso_set_8 |  -0.3846  -0.1868  -0.1165  -0.1297   1.0000 
+             |   0.1745   0.5225   0.6917   0.6586 
+             |
+
+. 
+. spearman   estoque_marilia adm_marilia deslig_marilia saldo_marilia iso_set_9, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | estoq~ia adm_ma~a desli~ia saldo~ia iso_se~9
+-------------+---------------------------------------------
+estoque_ma~a |   1.0000 
+             | 
+             |
+ adm_marilia |   0.7407   1.0000 
+             |   0.0024 
+             |
+deslig_mar~a |   0.6132   0.2967   1.0000 
+             |   0.0197   0.3030 
+             |
+saldo_mari~a |   0.4110   0.7714  -0.2352   1.0000 
+             |   0.1443   0.0012   0.4183 
+             |
+   iso_set_9 |  -0.3877  -0.7071   0.1938  -0.7467   1.0000 
+             |   0.1708   0.0047   0.5067   0.0022 
+             |
+
+. 
+. spearman    estoque_bsantista adm_bsantista deslig_bsantista saldo_bsantista iso_set_4, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | es~tista adm_bs~a de~tista sa~tista iso_s~_4
+-------------+---------------------------------------------
+estoque_bs~a |   1.0000 
+             | 
+             |
+adm_bsanti~a |   0.5385   1.0000 
+             |   0.0470 
+             |
+deslig_bsa~a |   0.8330   0.2396   1.0000 
+             |   0.0002   0.4094 
+             |
+saldo_bsan~a |   0.0198   0.8031  -0.2706   1.0000 
+             |   0.9464   0.0005   0.3494 
+             |
+   iso_set_4 |  -0.3319  -0.8110  -0.0330  -0.8229   1.0000 
+             |   0.2464   0.0004   0.9109   0.0003 
+             |
+
+. 
+. spearman   estoque_araraq adm_araraq deslig_araraq saldo_araraq iso_set_3, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | estoqu~q adm_ar~q deslig~q saldo_~q iso_s~_3
+-------------+---------------------------------------------
+estoque_ar~q |   1.0000 
+             | 
+             |
+  adm_araraq |   0.6220   1.0000 
+             |   0.0176 
+             |
+deslig_ara~q |   0.3363   0.0637   1.0000 
+             |   0.2398   0.8286 
+             |
+saldo_araraq |   0.1297   0.4945  -0.7495   1.0000 
+             |   0.6586   0.0722   0.0020 
+             |
+   iso_set_3 |  -0.5121  -0.4505  -0.1560  -0.1648   1.0000 
+             |   0.0612   0.1059   0.5942   0.5733 
+             |
+
+. 
+. spearman   estoque_aracatuba adm_aracatuba deslig_aracatuba saldo_aracatuba iso_set_2, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | esto~uba adm_ar~a desl~uba sald~uba iso_s~_2
+-------------+---------------------------------------------
+estoque_ar~a |   1.0000 
+             | 
+             |
+adm_aracat~a |   0.8593   1.0000 
+             |   0.0001 
+             |
+deslig_ara~a |   0.3187   0.0418   1.0000 
+             |   0.2668   0.8873 
+             |
+saldo_arac~a |   0.4022   0.6484  -0.6352   1.0000 
+             |   0.1540   0.0121   0.0147 
+             |
+   iso_set_2 |  -0.3846  -0.5648   0.1956  -0.6088   1.0000 
+             |   0.1745   0.0353   0.5028   0.0209 
+             |
+
+. 
+. spearman   estoque_g_sp adm_g_sp deslig_g_sp saldos_g_sp iso_set_1, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | estoqu~p adm_g_sp deslig~p saldos~p iso_s~_1
+-------------+---------------------------------------------
+estoque_g_sp |   1.0000 
+             | 
+             |
+    adm_g_sp |   0.8066   1.0000 
+             |   0.0005 
+             |
+ deslig_g_sp |   0.6308   0.2484   1.0000 
+             |   0.0156   0.3919 
+             |
+ saldos_g_sp |   0.5121   0.8505  -0.1692   1.0000 
+             |   0.0612   0.0001   0.5630 
+             |
+   iso_set_1 |  -0.6220  -0.8198  -0.1165  -0.8022   1.0000 
+             |   0.0176   0.0003   0.6917   0.0006 
+             |
+
+. 
+. spearman  estoque_barretos adm_barretos deslig_barretos saldo_barretos iso_set_5, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | estoq~os adm_ba~s desli~os saldo~os iso_s~_5
+-------------+---------------------------------------------
+estoque_ba~s |   1.0000 
+             | 
+             |
+adm_barretos |   0.5385   1.0000 
+             |   0.0470 
+             |
+deslig_bar~s |   0.8330   0.2396   1.0000 
+             |   0.0002   0.4094 
+             |
+saldo_barr~s |   0.0198   0.8031  -0.2706   1.0000 
+             |   0.9464   0.0005   0.3494 
+             |
+   iso_set_5 |   0.0813  -0.6352   0.2571  -0.8119   1.0000 
+             |   0.7823   0.0147   0.3748   0.0004 
+             |
+
+. 
+. spearman   estoque_bauru adm_bauru deslig_bauru saldo_bauru iso_set_6, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | estoqu~u adm_ba~u deslig~u saldo_~u iso_s~_6
+-------------+---------------------------------------------
+estoque_ba~u |   1.0000 
+             | 
+             |
+   adm_bauru |   0.7657   1.0000 
+             |   0.0014 
+             |
+deslig_bauru |   0.4758   0.2200   1.0000 
+             |   0.0855   0.4498 
+             |
+ saldo_bauru |   0.3476   0.7187  -0.4180   1.0000 
+             |   0.2233   0.0038   0.1369 
+             |
+   iso_set_6 |  -0.3987  -0.6315   0.1487  -0.7459   1.0000 
+             |   0.1580   0.0154   0.6120   0.0022 
+             |
+
+. 
+. spearman    estoque_cps adm_cps deslig_cps saldo_cps iso_set_7, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | estoq~ps  adm_cps desli~ps saldo~ps iso_s~_7
+-------------+---------------------------------------------
+ estoque_cps |   1.0000 
+             | 
+             |
+     adm_cps |   0.8062   1.0000 
+             |   0.0005 
+             |
+  deslig_cps |   0.6953   0.2486   1.0000 
+             |   0.0058   0.3914 
+             |
+   saldo_cps |   0.3894   0.8229  -0.2308   1.0000 
+             |   0.1687   0.0003   0.4273 
+             |
+   iso_set_7 |  -0.5633  -0.7921  -0.0066  -0.8198   1.0000 
+             |   0.0360   0.0007   0.9822   0.0003 
+             |
+
+. 
+. spearman    estoque_marilia adm_marilia deslig_marilia saldo_marilia iso_set_9, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | estoq~ia adm_ma~a desli~ia saldo~ia iso_se~9
+-------------+---------------------------------------------
+estoque_ma~a |   1.0000 
+             | 
+             |
+ adm_marilia |   0.7407   1.0000 
+             |   0.0024 
+             |
+deslig_mar~a |   0.6132   0.2967   1.0000 
+             |   0.0197   0.3030 
+             |
+saldo_mari~a |   0.4110   0.7714  -0.2352   1.0000 
+             |   0.1443   0.0012   0.4183 
+             |
+   iso_set_9 |  -0.3877  -0.7071   0.1938  -0.7467   1.0000 
+             |   0.1708   0.0047   0.5067   0.0022 
+             |
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Carol\Desktop\aula - ciência e visualização de dados em saúde\projeto ciencia de dados\novos\correlação dados municipio CAGED c
+> om isolamento municípios.log
+  log type:  text
+ closed on:  15 Jun 2021, 15:26:04
+-----------------------------------------------------------------------------------------------------------------------------------------------------
