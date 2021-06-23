@@ -237,21 +237,6 @@ Para concretizar as análises e ser possível verificar as possíveis relações
 
 **6.** Todos os dados quantitativos passaram pelo teste de Shapiro-Wilk para avaliar a sua normalidade e como a grande maioria não apresentou distribuições normais `(p>0,05)`, optou-se pelo teste de correlação não-paramétrico de Spearman. Consideramos valores inferiores à `0,5` como baixa correlação, de `0,5` à `0,7` como moderada e acima de `0,7` como forte. O nível de significância adotado para as análises foi de `p<0,05`.
 
-# Metodologia
-O projeto de pesquisa usará o modelo _KDDM_ seguindo a metodologia de (FAYYAD,1996) dividida em 9 passos:
-
-1. Desenvolvimento do projeto e entendimento do problema; 
-2. Criação de conjunto de dados alvo;
-3. Limpeza dos dados e Pré-processamento;
-4. Redução dos dados e Projeções;
-5. Escolha da tarefa de mineração de dados;
-6. Escolha do algoritmo para análise dos dados;
-7. Mineração dos dados;
-8. Interpretação dos dados;
-9. Consolidação do conhecimento;
-
-Para execução desta metodologia, esperamos empregar as seguintes técnicas de mineração de dados: análises estatísticas, análise de redes, técnicas de regressão e classificação.
-
 # Ferramentas
 
 As ferramentas que serão utilizadas dentro deste projeto serão:
