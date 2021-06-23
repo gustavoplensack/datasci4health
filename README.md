@@ -126,6 +126,19 @@ Durante o segundo semestre de 2020, a empresa InLoco foi vendida para a rede Mag
 
 Após a reunião com a professora Thaís na E1 o grupo acatou a sugestão de trabalhar com dados em menores proporções e limitamos o trabalho ao estado de São Paulo, o que nos permitiu descartar este conjunto de dados. Outros motivos para não escolhermos os dados do Inloco foi a descontinuidade da coleta a partir do final de março de 2021 e o fato de terem sido coletados por meio de apps específicos, o que pode enviesar as análises, uma vez que estaríamos considerando apenas o isolamento dos usuários de alguns apps.
 
+### Pesquisa Nacional de Amostras de Domicílios - PNAD COVID-19
+
+| Base de Dados |                                                                                            Endereço na WEB                                                                                            |                                       Resumo Descritivo                                       |
+|:-------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
+|   PNAD COVID-19  | https://www.ibge.gov.br/estatisticas/investigacoes-experimentais/estatisticas-experimentais/27946-divulgacao-semanal-pnadcovid1?t=o-que-e&utm_source=covid19&utm_medium=hotsite&utm_campaign=covid_19 | Dados de abrangência nacional com entrevistas realizadas pelo telefone com 193 mil domicílios |
+
+Durante a pandemia também foi lançada a PNAD COVID-19 que acompanhou 193,6 mil domicílios em 3.364 municípios do país com o objetivo de avaliar os impactos da pandemia no mercado de trabalho.
+
+Era composta por um questionário dividido em duas partes: a primeira composta por perguntas sobre saúde, especificamente sobre sintomas relacionados a COVID19 e a segunda parte sobre trabalho e se houve recebimento de auxílios por parte do governo, como auxílio emergencial, bolsa família, seguro desemprego, benefício de prestação continuada (BPC), lei orgânica da previdência social (LOAS) e aluguel.
+
+Teve seu início em maio de 2020 e foi descontinuada em setembro do mesmo ano. Por este motivo, visando atender aos objetivos estabelecidos neste projeto de pesquisa, optou-se pela análise apenas da PNAD contínua que abrange um período maior de estudo. Além disso, a PNAD covid-19, segundo o próprio IBGE, pode fornecer estatísticas experimentais na quais as inferências realizadas a partir dos dados devem ser realizadas com maior cautela (IBGE, s/d).
+
+
 ## Bases Estudadas e Adotadas
 
 ### Dados de Isolamento Social do Estado de São Paulo - IPT
