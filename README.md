@@ -204,17 +204,17 @@ A integração entre as bases de dados se deu seguindo três agrupamentos: o tem
 
 **1.** Os dados do CAGED são amostrados por meses, os dados da PNAD são amostrados por trimestres já os dados do IPT são amostrados por dia. Para colocar todos em uma base comum para análise, todos os dados foram convertidos para a escala de meses.
 
-    **a.** Os dados trimestrais da PNAD foram repetidos para os meses que compunham o trimestre;
+**a.** Os dados trimestrais da PNAD foram repetidos para os meses que compunham o trimestre;
 
-    **b.** Os dados do CAGED não precisaram ser alterados, uma vez que já estavam na base temporal desejada;
+**b.** Os dados do CAGED não precisaram ser alterados, uma vez que já estavam na base temporal desejada;
 
-    **c.** Os dados diários do IPT foram agrupados mensalmente por meio de uma média para o isolamento dos dias observados;
+**c.** Os dados diários do IPT foram agrupados mensalmente por meio de uma média para o isolamento dos dias observados;
 
 **2.** Do ponto de vista de agrupamento regional, os dados também possuem granularidades distintas, a PNAD apenas para todo o estado, CAGED para todos os municípios e IPT apenas para os municípios elegíveis (mais de 50 mil habitantes). Para atendermos nossas hipóteses:
 
-    **a.** A PNAD foi considerada apenas para análises para todo o estado em conjunto com os dados do IPT;
+**a.** A PNAD foi considerada apenas para análises para todo o estado em conjunto com os dados do IPT;
 
-    **b.** CAGED e IPT foram agrupados de acordo com os DRSs do estado, de modo a tentar capturar comportamentos similares no que diz respeito aos decretos das fases do Plano São Paulo de combate ao Coronavírus. Para ver como foi feito este agrupamento, veja o [Anexo I](https://github.com/gustavoplensack/datasci4health/assets/ANEXO%20I%20-%20Munic%C3%ADpios%20que%20comp%C3%B5em%20cada%20um%20dos%20DRSs.pdf).
+**b.** CAGED e IPT foram agrupados de acordo com os DRSs do estado, de modo a tentar capturar comportamentos similares no que diz respeito aos decretos das fases do Plano São Paulo de combate ao Coronavírus. Para ver como foi feito este agrupamento, veja o [Anexo I](https://github.com/gustavoplensack/datasci4health/assets/ANEXO%20I%20-%20Munic%C3%ADpios%20que%20comp%C3%B5em%20cada%20um%20dos%20DRSs.pdf).
 
 **3.** A análise pelo setor da atividade econômica pode ser feita apenas pela PNAD quando comparada ao isolamento social para o estado. O CAGED não pode ser usado nesta análise, pois não possui tal granularidade.
 
