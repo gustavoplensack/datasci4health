@@ -38,7 +38,19 @@ A análise das séries referentes à empregabilidade no país evidenciou importa
 **O isolamento social é, e segue sendo, uma das principais formas de reduzir a circulação do vírus e salvar vidas.**
 
 
-🎥 [Apresentação do Projeto](https://drive.google.com/file/d/1r17x60hF7Gx_e8v6M-6V-O7QfEi8iRQL/view?usp=sharing)
+# Vídeos do Projeto
+## Vídeo da Proposta
+🎥 [Proposta](https://drive.google.com/file/d/1r17x60hF7Gx_e8v6M-6V-O7QfEi8iRQL/view)
+
+## Vídeo da Apresentação Final
+🎥 [TBD](tbd)
+
+# Slides do Projeto
+## Slides da Proposta
+[Proposta do Projeto - CX002A/IA368X](https://docs.google.com/document/d/17sgFU_VSk_p8cTdW3BPgF-Q1Tbr7KLM4GlUjHscx184/edit?usp=sharing) 
+
+## Slides da Apresentação Final
+[Apresentação final - CX002A/IA368X](https://docs.google.com/presentation/d/1KfwHWIPRDmZvLer-tZGSdh2pJMqdxvl_slKtDLJ1BuE/edit#slide=id.gb6e7b4d16d_3_21)
 
 # Perguntas de Pesquisa
 Qual a relação entre isolamento social e indicadores sócio-econômicos durante a pandemia da COVID-19 no estado de São Paulo?
