@@ -1,7 +1,12 @@
 # Código fonte do projeto "Um estudo sobre a relação entre isolamento social e indicadores sócio-econômicos durante o período da pandemia da COVID-19 no Estado de São Paulo."
 
 ## Tecnologias usadas
-A implementação deste projeto foi feita se baseando em majoritariamente em `Python 3.6.9`. Caso você tenha que gerenciar as versões do Pyhton na sua máquina, recomendamos usar o [pyenv](https://github.com/pyenv/pyenv).
+
+A de algumas partes deste projeto foram feitas se baseando em majoritariamente em `Python 3.6.9`.
+
+Caso você tenha que gerenciar as versões do Pyhton na sua máquina, recomendamos usar o [pyenv](https://github.com/pyenv/pyenv).
+
+Nota: usar um virtualenv pode ser interessante para isolar as dependências.
 
 ## Instalação
 Para instalar as bibliotecas usadas, basta usar:
