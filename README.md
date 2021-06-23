@@ -90,7 +90,24 @@ Investigar as relações entre o isolamento social praticado no estado de São P
 * Analisar a correlação entre entre o isolamento praticado no estado e os diversos setores da atividade econômica representados na PNAD;
 * Analisar a correlação entre o isolamento praticado nos DRSs e o CAGED;
 
+# Metodologia
+O projeto de pesquisa utilizou o modelo KDDM seguindo a metodologia de Fayyad et al, 1996 dividida em 9 passos:
+1. Desenvolvimento do projeto e entendimento do problema; 
+2. Criação de conjunto de dados alvo;
+3. Limpeza dos dados e Pré-processamento;
+4. Redução dos dados e Projeções;
+5. Escolha da tarefa de mineração de dados;
+6. Escolha do algoritmo para análise dos dados;
+7. Mineração dos dados;
+8. Interpretação dos dados;
+9. Consolidação do conhecimento;
+
+Através destes 9 passos, buscamos estudar como as séries históricas de empregabilidade mensuradas pela CAGED e PNAD Contínua se correlacionam com os dados do isolamento social mensurados pelo IPT para o estado de São Paulo.
+
+A análise dos dados foi baseada na exploração visual das séries, em conjunto com o estudo da correlação usando o método de Spearman, devido à não normalidade das séries. Os detalhes estão na seção análises realizadas.
+
 # Bases de Dados e Evolução
+
 
 ## Bases de Estudadas mas Não Adotadas
 
