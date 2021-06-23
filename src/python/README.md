@@ -1,4 +1,4 @@
-# Código fonte do projeto "Um estudo sobre a relação entre isolamento social e indicadores sócio-econômicos durante o período da pandemia da COVID-19 no Estado de São Paulo."
+# Código fonte do projeto "Um estudo sobre a relação entre isolamento social e empregabilidade durante o período da pandemia da COVID-19 no Estado de São Paulo."
 
 ## Tecnologias usadas
 
