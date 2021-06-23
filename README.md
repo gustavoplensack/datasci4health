@@ -74,16 +74,21 @@ Nosso estudo se baseou na análise de correlações entre as séries históricas
 Foi encontrado correlação inversamente proporcional do número de ocupados com o isolamento para o estado. Também foi encontrado correlação inversamente proporcional entre os setores da economia e o isolamento praticado no estado. Apesar dos dados gerais do CAGED para o estado não possuírem correlação, a maioria apresentou correlação para o número de admissões e saldo dos Departamentos Regionais de Saúde (DRSs).
 
 # Perguntas de Pesquisa
-Qual a relação entre isolamento social e indicadores sócio-econômicos durante a pandemia da COVID-19 no estado de São Paulo?
 
-## Hipóteses (10/04/2021):
-**H1:** Num primeiro momento, o isolamento social leva ao aumento do desemprego;
+Qual a relação entre isolamento social e empregabilidade (PNAD e CAGED) durante a pandemia da COVID-19 no estado de São Paulo?
 
-**H2:** Num segundo momento, o aumento do desemprego leva à diminuição do isolamento social;
+## Hipóteses
 
-**H3:** Fatores como o aumento da Inflação, redução do PIB per Capita levam à redução do isolamento social;
+**H1:** existe correlação entre isolamento social e empregabilidade no estado de São Paulo.
 
-**H4:** Políticas públicas, como o auxílio emergencial favorecem o isolamento social.
+# Objetivos do Projeto
+Investigar as relações entre o isolamento social praticado no estado de São Paulo e a empregabilidade no primeiro ano da pandemia.
+
+## Objetivos Secundários
+* Analisar o isolamento social no estado de São Paulo e em seus Departamentos Regionais de Saúde (DRS) entre março de 2020 a março de 2021.
+* Analisar as séries históricas do CAGED e PNAD ao longo do primeiro ano da pandemia;
+* Analisar a correlação entre entre o isolamento praticado no estado e os diversos setores da atividade econômica representados na PNAD;
+* Analisar a correlação entre o isolamento praticado nos DRSs e o CAGED;
 
 # Bases de Dados e Evolução
 
