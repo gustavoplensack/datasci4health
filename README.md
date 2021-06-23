@@ -52,6 +52,27 @@ A análise das séries referentes à empregabilidade no país evidenciou importa
 ## Slides da Apresentação Final
 [Apresentação final - CX002A/IA368X](https://docs.google.com/presentation/d/1KfwHWIPRDmZvLer-tZGSdh2pJMqdxvl_slKtDLJ1BuE/edit#slide=id.gb6e7b4d16d_3_21)
 
+# Introdução e Referenciais Teóricos
+A pandemia da COVID-19 é um acontecimento sem precedentes na história recente da humanidade e seus impactos chegaram a todos os setores da sociedade. Como forma de mitigar a crise sanitária, uma das medidas mais eficazes se mostrou ser o distanciamento social (de SOUZA, 2020).
+
+Esta prática, necessária para conter os números de casos da COVID-19 pode desencadear mudanças sobre a economia, em especial em países emergentes como o Brasil devido à limitação de circulação de pessoas (MUNIZ, SILVA, FERNANDES, 2020).
+
+A instabilidade na saúde causada pela pandemia da Covid-19, doença causada pelo novo Coronavírus (SARS-CoV-2), acentuou as vulnerabilidades do nosso sistema social econômico, em um país de larga extensão territorial com diversos cenários econômicos como é o Brasil (MUNIZ, SILVA, FERNANDES, 2020).
+
+A primeira notificação de Covid-19 ocorreu em 25 de fevereiro de 2020. Em março do mesmo ano, o país adotou as normas de distanciamento social (quarentena), afetando setores da economia, em especial alimentação, hospedagem e comércio (COSTA, 2020).
+
+Neste contexto, o presente estudo propõe investigar as relações entre o isolamento social praticado no estado de São Paulo e a empregabilidade, através dos dados do IPT, da PNAD e CAGED.
+
+A relevância de verificar tais relações, permite vislumbrar a necessidade de ações para impulsionar o setor econômico  pós pandemia,  como empregabilidade, incentivos fiscais e trabalhistas, assim como medidas de incentivo do setor privado através de linhas de crédito e medidas de incentivo ao consumo.
+
+A motivação do desenvolvimento deste estudo, iniciou-se a partir  da observação da grande demanda dos canais de comunicação em anunciar enfrentamentos no setor de trabalho, como altas taxas de desemprego, aumento da pobreza, e medidas governamentais para conter a crise sanitária e redução dos impactos na economia do país.
+
+No campo científico, alguns autores abordam a questão dos índices de empregabilidade no contexto da pandemia (COSTA, 2020, MUNIZ, SILVA, FERNANDES, 2020). Costa, (2020) relata que fatores anteriores à crise sanitária, como redução do investimento público em programas sociais, e as mudanças na Consolidação das Leis Trabalhistas (CLT) podem ter influenciado os números de desemprego no país.
+
+Nosso estudo se baseou na análise de correlações entre as séries históricas dos dados de empregabilidade e isolamento para o estado de São Paulo. Para isso foram construídos bancos de dados a partir dos dados públicos disponibilizados pelo IPT, Ministério da Economia - Secretaria do Trabalho (ME-ST) e Instituto Brasileiro de Geografia Estatística (IBGE).
+
+Foi encontrado correlação inversamente proporcional do número de ocupados com o isolamento para o estado. Também foi encontrado correlação inversamente proporcional entre os setores da economia e o isolamento praticado no estado. Apesar dos dados gerais do CAGED para o estado não possuírem correlação, a maioria apresentou correlação para o número de admissões e saldo dos Departamentos Regionais de Saúde (DRSs).
+
 # Perguntas de Pesquisa
 Qual a relação entre isolamento social e indicadores sócio-econômicos durante a pandemia da COVID-19 no estado de São Paulo?
 
