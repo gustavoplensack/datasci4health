@@ -18,6 +18,16 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 # Disclaimer ⚠️
 Como você deve ter notado pelas especializações dos integrantes, nós não somos especialistas em economia nem políticas de saúde pública. Este estudo foi conduzido no como um exercício de análise orientada a dados de uma disciplina do programa de pós-graduação da Unicamp e não deve ser usado para nada além deste propósito.
 
+# Acompanhando a Evolução do Projeto
+Com o intuito de simplificar a navegação pelas versões do projeto, foram criadas 3 tags, sendo elas E1, E2 e E3. Estas tags correspondem aos commits finais em cada uma das entregas. Para visualizar o trabalho nestes pontos da história, dar checkout nestas tags, como mostra o comando abaixo para a E1:
+
+```sh
+git checkout E1
+```
+
+Você também pode inspecionar as tags pelo seu navegador usando a seção de [tags](https://github.com/gustavoplensack/datasci4health/tags) do GitHub.
+
+
 # Descrição Resumida do Projeto
 A pandemia do COVID-19 é um acontecimento sem precedentes na história recente da humanidade e seus impactos chegaram a todos os setores da sociedade. Como forma de mitigar a crise sanitária, uma das medidas mais eficazes se mostrou ser o distanciamento social.
 
