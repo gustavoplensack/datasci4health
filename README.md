@@ -147,9 +147,9 @@ Teve seu início em maio de 2020 e foi descontinuada em setembro do mesmo ano. P
 |:-------------------------------------------------------:|:-----------------------------------------------------:|:----------------------------------------------------------------------------------:|
 | Dados de Isolamento Social do Estado de São Paulo - IPT | https://www.saopaulo.sp.gov.br/coronavirus/isolamento | Dados sobre o isolamento social em cidades paulistas com mais de 50 mil habitantes |
 
-O IPT juntamente com o SIMI-SP (Sistema de Informações e Monitoramento Inteligente do Governo do Estado de São Paulo) divulga, diariamente, dados sobre o isolamento social nas cidades do estado de São Paulo. Os dados sobre isolamento social são coletados a partir de empresas prestadores de serviços de telecomunicação (telefonia celular – VIVO, TIM, CLARO, OI). Tais dados são obtidos a partir de uma plataforma chamada Big Data que é gerida pela Associação Brasileira de Recursos em Telecomunicações (ABR Telecom).
+O IPT juntamente com o SIMI-SP (Sistema de Informações e Monitoramento Inteligente do Governo do Estado de São Paulo) divulga, diariamente, dados sobre o isolamento social nas cidades do estado de São Paulo. Os dados sobre isolamento social são coletados a partir de empresas prestadoras de serviços de telecomunicação (telefonia celular – VIVO, TIM, CLARO, OI). Tais dados são obtidos a partir de uma plataforma chamada Big Data que é gerida pela Associação Brasileira de Recursos em Telecomunicações (ABR Telecom).
 
-O índice de isolamento social é baseado na localização obtida pelas antenas de celulares, usando como local de referência a localização onde o celular permaneceu dentre 22h00 e 2h00. Um celular que tenha se afastado desta referência, mais que 200m, é considerado fora do isolamento. 
+O índice de isolamento social é baseado na localização obtida pelas antenas de celulares, usando como local de referência a localização onde o celular permaneceu entre 22h00 e 2h00. Um celular que tenha se afastado desta referência, mais de 200m, é considerado fora do isolamento.
 
 Os dados são repassados de forma anônima e agregada índices, gráficos e mapas estaduais agregados por municípios, não existindo a possibilidade de acesso a qualquer dado individualizado por parte do IPT ou do Governo do Estado.
 
@@ -157,9 +157,11 @@ No início da coleta dos dados (início da pandemia) eram repassados apenas dado
 
 O esquema do banco é uma série temporal com o isolamento naquele dia para um dado município. Também são encontrados alguns metadados como a população em 2020 e código do IBGE.
 
-Explorando os dados, observamos dados faltantes nas primeiras 15 amostras da série e alguns poucos no meio da série. Diante disso, removemos os 15 primeiros dias de coleta e interpolamos linearmente os demais dias.
+Os dados divulgados pelo IPT apresentavam alguns pouquíssimos dados faltantes nos primeiros dias de análises (fevereiro e março) para alguns municípios usados na elaboração do banco de dados sobre isolamento social. Para as análises propostas, foram realizadas médias para avaliar as correlações e eles foram ignorados.
 
-Uma análise inicial sobre estes dados permitiu notar que para as 20 cidades mais populosas do estado a série de isolamento apresenta uma alta correlação. Ao longo de todo o período, o isolamento ficou entre 30% e 50% sendo um pouco maior nos finais de semana. Detalhes, gráficos e código podem ser verificados em `notebooks/Estudo_IPT_E2.ipynb`
+Uma análise inicial sobre estes dados permitiu notar que para as 20 cidades mais populosas do estado a série de isolamento apresenta uma alta correlação. Ao longo de todo o período, o isolamento ficou entre 30% e 50% sendo um pouco maior nos finais de semana. Detalhes, gráficos e código podem ser verificados em [notebooks/Estudo_IPT_E2.ipynb](https://github.com/gustavoplensack/datasci4health/blob/main/notebooks/Estudo_IPT_E2.ipynb)
+ 
+Entendemos estes dados como sendo melhores do que os dados do InLoco, devido ao fato de estes serem associados a todos os usuários de dispositivos móveis que se locomoveram, sendo assim menos restrito ao tipo de usuário.
 
 ### PNAD contínua - Macrodados
 
