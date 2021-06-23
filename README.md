@@ -254,38 +254,5 @@ As ferramentas utilizadas dentro deste projeto são:
 
 Estas foram usadas pois eram as ferramentas que o grupo conhecia, tinha acesso e eram capazes de serem usadas para realizar as análises desejadas.
 
-# Cronograma
-|                           -                           	|  Abril 	||  Maio  	||  Junho 	||  Julho 	|
-|:-----------------------------------------------------:	|:------:	|:------:	|:------:	|:------:	|:------:	|:------:	|:------:	|
-|                       Atividade                       	| 1 qui. 	| 2 qui. 	| 1 qui. 	| 2 qui. 	| 1 qui. 	| 2 qui. 	| 1 qui. 	|
-| Plano de projeto                                      	|    X   	|        	|        	|        	|        	|        	|        	|
-| Desenvolvimento do projeto e entendimento do problema 	|    X   	|    X   	|    X   	|        	|        	|        	|        	|
-| Criação de conjunto de dados alvo                     	|    X   	|    X   	|    X   	|        	|        	|        	|        	|
-| Limpeza dos dados e Pré-processamento                 	|    X   	|    X   	|    X   	|        	|        	|        	|        	|
-| Base de Dados de Trabalho                             	|        	|        	|    X   	|        	|        	|        	|        	|
-| Escolha da tarefa de mineração de dados               	|        	|        	|    X   	|    X   	|    X   	|        	|        	|
-| Escolha do algoritmo para análise dos dados           	|        	|        	|    X   	|    X   	|    X   	|        	|        	|
-| Mineração dos dados                                   	|        	|        	|    X   	|    X   	|    X   	|        	|        	|
-| Interpretação dos dados                               	|        	|        	|        	|        	|    X   	|    X   	|        	|
-| Consolidação do conhecimento                          	|        	|        	|        	|        	|        	|    X   	|        	|
-| Entrega Final                                         	|        	|        	|        	|        	|        	|    X   	|        	|
-| Apresentações                                         	|        	|        	|        	|        	|        	|    X   	|    X   	|
-
-# Referências Acadêmicas
-Fayyad, U., Piatetsky-Shapiro, G., & Smyth, P. (1996). From Data Mining to Knowledge Discovery in Databases. AI Magazine, 17(3), 37. https://doi.org/10.1609/aimag.v17i3.1230
-
-Suliano D. Caracterização das Pesquisas Domiciliares com Ênfase na PNAD Contínua. Ceará; 2017. 
-
-Instituto Brasileiro de Geografia e Estatística (IBGE). O IBGE apoiando o combate a COVID-19 [Internet]. [cited 2021 May 5]. Available from: https://covid19.ibge.gov.br/pnad-covid/
-
-Instituto Brasileiro de Geografia e Estatística. Pesquisa Nacional por Amostra de Domicílios Contínua - PNAD Contínua [Internet]. [cited 2021 May 5]. Available from: https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html?=&t=o-que-e
-Instituto de Pesquisa Econômica Aplicada. Ministério do Trabalho. Mercado de trabalho: conjuntura e análise. Brasília; 2019. 
-
-Corseuil CHL, Ramos L, Azevedo B de S, Russo FM. Mais sobre as diferenças na evolução do emprego formal na PNAD contínua e no CAGED. 2019. 
-
-Ministério da Economia. Nota Técnica: Substituição da captação dos dados do Caged pelo eSocial. 2020. Disponível em: http://pdet.mte.gov.br/o-que-e-novo-caged.
-
-
-
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
