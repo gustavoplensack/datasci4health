@@ -220,6 +220,23 @@ A integração entre as bases de dados se deu seguindo três agrupamentos: o tem
 
 Com estes agrupamentos buscamos analisar e estudar os objetivos descritos no início deste repositório.
 
+# Análises Realizadas
+Para realizar as análises, foi de fundamental importância compreender os dados à priori. Esta tarefa demandou grande parte do tempo para desenvolver este projeto. Cabe ressaltar que a utilização de dados, estão disponíveis nos endereços já citados nos itens anteriores e que estão disponíveis para consulta. Assim, foram consultados, notas técnicas oficiais, páginas da web, artigos, para melhor clareza no entendimento. Cada base de dados utilizada possui sua própria metodologia e formas diferentes de descrição das informações.
+
+Para concretizar as análises e ser possível verificar as possíveis relações entre os dados, foram debatidos vários caminhos.
+
+**1.** Na primeira etapa do projeto a intenção era investigar os mesmo dados porém, em macrorregiões e para todo o Brasil, após arguição da primeira etapa, foi sugerido pelo professor avaliador, que de início fosse apenas uma região. 
+
+**2.** Foi decidido o ajuste da investigação para o estado de São Paulo. Porém, a extensão territorial ainda era complexa, uma vez que o estado possui 645 municípios, dos quais apenas 139 possuem mais de 50.000 habitantes segundo o IPT;
+
+**3.** O IPT avalia e apresenta dados do isolamento social do estado diariamente, desde fevereiro de 2020. São apresentados dados de 139 municípios e um referente ao estado. O isolamento social realizado no estado de São Paulo sofre a influência  das imposições do Plano São Paulo. Neste plano, o estado está dividido em 17 DRSs, que são categorizados segundo uma escala de cinco níveis de abertura econômica (mais rígido a mais brando). A indicação dos níveis está associada principalmente à taxa de ocupação dos leitos de UTI-Covid e a incidência de casos. Para realizar as análises, os municípios constantes no IPT foram agrupados seguindo os DRSs, uma vez que os decretos estaduais sugerem flexibilizar ou restringir a circulação de pessoas nessas regiões. A descrição destes DRSs está no Anexo I.
+
+**4.** Os macro dados da PNAD são fornecidos de forma trimestral para o estado como um todo e setores das atividades econômicas. Para ter a amostragem mensal, os dados foram repetidos para os meses que compunham o trimestre;
+
+**5.** O CAGED apresenta mensalmente dados sobre a empregabilidade para cada um dos municípios do país apresentando 4 informações: admissões, demissões, saldo (diferença entre admissões e demissões) e estoque (diferença entre o mês anterior e o mês atual do total de trabalhadores empregados). Ele fornece estes dados, pela divisão de estados no território nacional ao longo do tempo; Foram considerados os dados referentes ao estado de São Paulo assim como os dados médios de admissão e saldo de cada DRSs no período de fevereiro de 2020 a março de 2021.
+
+**6.** Todos os dados quantitativos passaram pelo teste de Shapiro-Wilk para avaliar a sua normalidade e como a grande maioria não apresentou distribuições normais `(p>0,05)`, optou-se pelo teste de correlação não-paramétrico de Spearman. Consideramos valores inferiores à `0,5` como baixa correlação, de `0,5` à `0,7` como moderada e acima de `0,7` como forte. O nível de significância adotado para as análises foi de `p<0,05`.
+
 # Metodologia
 O projeto de pesquisa usará o modelo _KDDM_ seguindo a metodologia de (FAYYAD,1996) dividida em 9 passos:
 
