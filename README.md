@@ -1,6 +1,6 @@
-# Projeto _"Um estudo sobre a relação entre isolamento social e indicadores sócio-econômicos durante o período da pandemia da COVID-19 no Estado de São Paulo."_
+# Projeto _“Um estudo sobre a relação entre isolamento social e empregabilidade durante o período da pandemia da COVID-19 no estado de São Paulo”_
 
-# Project _"A study on the relationship between social isolation and socio-economic indicators during the pandemic period of COVID-19 in São Paulo State."_
+# Project _“A study on the relationship between social isolation and employability during the pandemic period of COVID-19 in São Paulo (Brazil)”_
 
 # Apresentação
 
@@ -14,6 +14,9 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 | Carolina Neves Freiria        	| 101825 	| Nutricionista - Doutoranda em gerontologia FCM               	|
 | Flavia Noeli de Souza Infante 	| 100061 	| Nutricionista - Doutoranda Saúde da Criança e do adolescente 	|
 | Gustavo G. Plensack           	| 155662 	| Engenharia Elétrica - Aluno especial                         	|
+
+# Disclaimer ⚠️
+Como você deve ter notado pelas especializações dos integrantes, nós não somos especialistas em economia nem políticas de saúde pública. Este estudo foi conduzido no como um exercício de análise orientada a dados de uma disciplina do programa de pós-graduação da Unicamp e não deve ser usado para nada além deste propósito.
 
 # Descrição Resumida do Projeto
 A pandemia do COVID-19 é um acontecimento sem precedentes na história recente da humanidade e seus impactos chegaram a todos os setores da sociedade. Como forma de mitigar a crise sanitária, uma das medidas mais eficazes se mostrou ser o distanciamento social.
