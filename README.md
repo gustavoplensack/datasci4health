@@ -239,20 +239,20 @@ Para concretizar as análises e ser possível verificar as possíveis relações
 
 # Ferramentas
 
-As ferramentas que serão utilizadas dentro deste projeto serão:
-* Python 3.6.9
-    * [Pandas](https://pandas.pydata.org/);
-    * [Numpy](https://numpy.org/);
-    * [Scikit-learn](https://scikit-learn.org/stable/);
-    * [Statsmodels](https://www.statsmodels.org/stable/index.html);
-    * [Seaborn](https://seaborn.pydata.org/);
-    * [Matplotlib](https://matplotlib.org/stable/users/installing.html);
-    * [Pillow](https://pillow.readthedocs.io/en/stable/)
+As ferramentas utilizadas dentro deste projeto são:
+
+* Python 3.6.9 e suas bibliotecas (veja o requirements.txt);
+* Orange;
+* Stata;
 * Gerenciamento de planilhas:
-    * MS Excel e Google Sheets;
+    * MS Excel;
+    * Google Sheets;
 * Armazenagem e Computação em Nuvem:
     * Google Drive;
     * Google Colab;
+* Git;
+
+Estas foram usadas pois eram as ferramentas que o grupo conhecia, tinha acesso e eram capazes de serem usadas para realizar as análises desejadas.
 
 # Cronograma
 |                           -                           	|  Abril 	||  Maio  	||  Junho 	||  Julho 	|
