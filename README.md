@@ -29,9 +29,14 @@ Você também pode inspecionar as tags pelo seu navegador usando a seção de [t
 
 
 # Descrição Resumida do Projeto
-A pandemia do COVID-19 é um acontecimento sem precedentes na história recente da humanidade e seus impactos chegaram a todos os setores da sociedade. Como forma de mitigar a crise sanitária, uma das medidas mais eficazes se mostrou ser o distanciamento social.
+A pandemia da COVID-19 é um acontecimento sem precedentes na história recente da humanidade e seus impactos chegaram a todos os setores da sociedade. Como forma de mitigar a crise sanitária, uma das medidas mais eficazes se mostrou ser o distanciamento social.
 
-No entanto, é fato que esta prática traz impactos grandes sobre a economia, em especial em países emergentes como o Brasil. Este estudo se propõe a investigar as relações entre o isolamento social praticado no estado de São Paulo e indicadores econômicos como desemprego, informalidade e inflação. 
+Esta prática, necessária para conter os números de casos da COVID-19 pode desencadear mudanças sobre a economia, em especial em países emergentes como o Brasil. Este estudo se propõe a investigar as relações entre o isolamento social praticado no estado de São Paulo, através dos dados do Instituto de Pesquisas Tecnológicas (IPT), e a empregabilidade, através dos dados da  Pesquisa Nacional por Amostra de Domicílios (PNAD) e Cadastro Nacional de Empregados (CAGED).
+
+A análise das séries referentes à empregabilidade no país evidenciou importantes modificações ao longo da pandemia, sendo que o aumento do isolamento correlacionou-se com a redução da empregabilidade. Ressalta-se que apesar da presença de correlação entre empregabilidade e isolamento social, a estatística adotada em nosso estudo não nos permite inferências sobre causa e efeito. O fenômeno da pandemia e empregabilidade é multidimensional e futuras análises devem incorporar  possíveis efeitos mediadores nesta situação como nível de ocupação de UTIs, recebimento de auxílio emergencial e índices econômicos.
+
+**O isolamento social é, e segue sendo, uma das principais formas de reduzir a circulação do vírus e salvar vidas.**
+
 
 🎥 [Apresentação do Projeto](https://drive.google.com/file/d/1r17x60hF7Gx_e8v6M-6V-O7QfEi8iRQL/view?usp=sharing)
 
