@@ -254,5 +254,25 @@ As ferramentas utilizadas dentro deste projeto são:
 
 Estas foram usadas pois eram as ferramentas que o grupo conhecia, tinha acesso e eram capazes de serem usadas para realizar as análises desejadas.
 
+# Resultados e Discussão
+
+## Dados IPT
+
+![heatmap PNAD](assets/img/heatmap-ipt.png)
+
+**Gráfico 1:** Isolamento social no estado de São Paulo, segundo DRS, entre Março de 2020 a Março de 2021.
+
+O Gráfico 1 apresenta a média de isolamento social, segundo os DRSs do estado de São Paulo entre Março/2020 até Março/2021. As cores verde e amarela indicam os maiores valores de isolamento e a tonalidade em azul indicam os menores valores de isolamento social. Pode-se perceber que nos meses de Abril e Maio foram os períodos onde se obteve os maiores valores para isolamento social em todos os DRSs, com todos os DRSs em tonalidade de verde e amarelo. A partir destes meses o isolamento social variou muito nos DRSs.
+
+A DRS de Taubaté, que aparece em branco no gráfico, foi onde se obteve o maior índice de isolamento social durante todo o período analisado, com valores próximos a 60% de isolamento social no mês de Abril/2020.
+
+Nos meses de Março e Abril de 2020 foram publicados decretos e portarias que visavam o controle da propagação do vírus, o que incluía o fechamento de serviços não essenciais e limitava a circulação da população. Isso levou a um aumento do indicador de isolamento social. Após estes dois meses, mesmo com orientações para a redução da circulação da população e o estímulo ao isolamento social por parte do governo do estado de São Paulo, os números de isolamento começaram a cair com predominância de cor azul no gráfico. Percebe-se que nos meses analisados, alguns DRSs como Franca, Ribeirão Preto e São João da Boa Vista mantiveram valores constantes e mais elevados de isolamento, ao se comparar com outros DRSs.
+
+Em Junho de 2020, em uma tentativa de retomada da economia, o governo do estado de São Paulo lançou o Plano São Paulo em que os DRSs seguiriam medidas de circulação da população e abertura da economia de formas diferentes, e as medidas estariam vinculadas às condições de saúde do DRS.
+
+O Plano São Paulo, do governo estadual, classificou e ainda classifica cada um dos DRSs em 5 níveis: vermelho, laranja, amarelo, verde e azul, sendo a vermelha a situação mais crítica e azul o nível menos crítico. Essa classificação leva em consideração diversos fatores, dentre eles, a capacidade de ocupação dos leitos de hospitais e a taxa de contaminados pela Covid-19. À medida que a ocupação dos leitos e o número de contaminados se eleva, essa classificação tende para o vermelho. Sendo assim, era esperado que a partir de então os DRSs apresentassem níveis de isolamento social diferentes entre si, como observado no Gráfico 1. Apesar desta medida individualizar os DRSs, em alguns momentos, ao longo da série temporal analisada, todos os DRSs encontravam-se em níveis laranja e/ou vermelho - como no mês de Julho/2020 - e ainda assim o nível de isolamento social não se elevou. O Plano São Paulo emitia boletins epidemiológicos à medida que a situação de saúde mudava e também reclassificava cada um dos DRSs. Vale destacar que os prefeitos dos municípios tinham autonomia para tornar as medidas mais rígidas em suas regiões, caso achassem necessário. Visto isso, consideramos relevante analisar os dados de isolamento social não apenas do estado de São Paulo, mas a taxa de isolamento social dos DRSs.
+
+A Organização Mundial de Saúde (OMS) indica como aceitável uma taxa de isolamento social de 50%, e como ideal a taxa de 70% para o controle da doença (WHO, 2020). Houveram momentos e até dias seguidos em que vários municípios atingiram estes valores, mas a média indica que o valor de 70% nunca foi alcançado nos meses analisados. Os indicadores de 50% foram obtidos em alguns momentos, como no início da pandemia, mas em momentos em que a taxa de transmissão estava elevada, como nos meses de julho, o isolamento social não apresentou um crescimento para a maioria dos DRSs. Em nenhum momento, da fase temporal analisada, houve um decreto de lockdown estadual mesmo em situações extremamente graves, com ocupação de mais de 90% dos leitos de UTI - Covid para a maioria dos DRS. Vale salientar que medidas como essa, apesar de necessárias do ponto de vista de saúde, trazem impactos negativos significativos à economia. 
+
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
