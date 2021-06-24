@@ -8,4 +8,4 @@ O workflow deve se parecer com:
 
 ![Workflow Orange HEATMAP](../../assets/img/orange-workflow.jpeg)
 
-Para reproduzir estas análises use os dados contidos na pasta `<repo_root>/data/processed` conforme o indicado nos logs contidos nesta pasta usando a base de dados contida em `<repo_root>/data/processed/banco finalizado.dta`
+Para reproduzir estas análises use os dados contidos na pasta `<repo_root>/data/processed/heatmap-ipt.csv`.
