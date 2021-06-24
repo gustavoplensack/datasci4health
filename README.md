@@ -47,10 +47,10 @@ A análise das séries referentes à empregabilidade no país evidenciou importa
 
 # Slides do Projeto
 ## Slides da Proposta
-[Proposta do Projeto - CX002A/IA368X](https://docs.google.com/document/d/17sgFU_VSk_p8cTdW3BPgF-Q1Tbr7KLM4GlUjHscx184/edit?usp=sharing) 
+[Proposta do Projeto - CX002A/IA368X](assets/pdf/project-proposal.pdf) 
 
 ## Slides da Apresentação Final
-[Apresentação final - CX002A/IA368X](https://docs.google.com/presentation/d/1KfwHWIPRDmZvLer-tZGSdh2pJMqdxvl_slKtDLJ1BuE/edit#slide=id.gb6e7b4d16d_3_21)
+[Apresentação final - CX002A/IA368X](assets/pdf/final-presentation.pdf)
 
 # Introdução e Referenciais Teóricos
 A pandemia da COVID-19 é um acontecimento sem precedentes na história recente da humanidade e seus impactos chegaram a todos os setores da sociedade. Como forma de mitigar a crise sanitária, uma das medidas mais eficazes se mostrou ser o distanciamento social (de SOUZA, 2020).
