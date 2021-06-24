@@ -480,5 +480,31 @@ Como foi ressaltado na conclusão, a análise de um fenômeno complexo como o de
 
 Além disso,  a apresentação dos índices de desemprego varia muito entre as diversas projeções já publicadas, as quais empregam metodologias diferentes de acordo com os interesses que embasam as pesquisas de cada instituição. Para ampliar o entendimento sobre a análise regional seria interessante estudar com mais detalhes as regiões dos DRSs e suas principais atividades econômicas.
 
+# Referências Bibliográficas
+
+1. Schneider S, Cassol A, Leonardi A, Marinho M de M. Os efeitos da pandemia da Covid-19 sobre o agronegócio e a alimentação. Estud Avançados [Internet]. 2020 Dec;34(100):167–88. Available from: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-40142020000300167&tlng=pt
+
+2. Almeida, Mariana Eugenio;  Sousa, Marcelo de;  Pateo, Felipe Vella; Albuquerque, Augusto Veras Soares Martinez. Comparando bases de dados : o caso do Cadastro Geral de Empregados e Desempregados (CAGED) e da Pesquisa Nacional por Amostra de Domicílios contínua (PNAD contínua). Mercado de Trabalho, 65, 2018. Disponível em: http://repositorio.ipea.gov.br/handle/11058/9887
+
+3. Altair Souza de Assis; Vinicius Werneck de Carvalho. Logistic Approach to COVID - 19 Epidemic Evolution in Brazil. medRxiv 2020.06.22.20135921; doi: https://doi.org/10.1101/2020.06.22.20135921 
+
+4. Siqueira F, Bezerra Silva J, Dourado Guerra L, Ferreira Alves L. otas reflexivas sobre o Auxílio Emergencial Temporário no Brasil em tempos da pandemia da COVID-19. Desenvolv em Debate [Internet]. 2021 Apr 30;9(1):99–119. Available from: https://inctpped.ie.ufrj.br/desenvolvimentoemdebate/pdf/dd_v_9_n_1_francisco_emerson_de_siqueira.pdf
+
+5. Nexus, noticias. O emprego no Brasil durante a pandemia em 3 pontos. Nexus/notícias [28/01/2021]. Disponível em: https://www.nexojornal.com.br/expresso/2021/01/28/O-emprego-no-Brasil-durante-a-pandemia-em-3-pontos. Acesso em: 21 jun. 2021.
+
+6. Mattei, Lauro e Heinen, Vicente  LOEBLEIN Impactos da crise da Covid-19 no mercado de trabalho brasileiro. Brazilian Journal of Political Economy [online]. 2020, v. 40, n. 4 [Acessado 22 Junho 2021] , pp. 647-668. Disponível em: <https://doi.org/10.1590/0101-31572020-3200>. Epub 16 Out 2020. ISSN 1809-4538. https://doi.org/10.1590/0101-31572020-3200.
+
+7. Costa, Simone da Silva Pandemia e desemprego no Brasil. REVISTA DE ADMINISTRAÇÃO PÚBLICA | Rio de Janeiro 54(4):969-978, jul. - ago. 2020. Disponível em: https://www.scielo.br/j/rap/a/SGWCFyFzjzrDwgDJYKcdhNt/?lang=pt 
+
+8. CAMPINAS. Prefeitura Municipal de Campinas. A CIDADE MAIS SURPREENDENTE DO BRASIL - Guia de Investimentos. Disponível em: guia_investimentos_pt.pdf (campinas.sp.gov.br
+
+9. BRASIL. MINISTÉRIO DA ECONOMIA. Ministério da Economia divulga lista dos setores mais afetados pela pandemia da Covid-19 no Brasil. 2020. Disponível em: https://www.gov.br/economia/pt-br/assuntos/noticias/2020/setembro/ministerio-da-economia-divulga-lista-dos-setores-mais-afetados-pela-pandemia-da-covid-19-no-brasil
+
+10. PORTAL G1. Economia. Fim de ano abre milhares de vagas temporárias e esporádicas; veja como funciona cada contratação. 2019. Disponível em: https://g1.globo.com/economia/concursos-e-emprego/noticia/2019/11/14/fim-de-ano-abre-milhares-de-vagas-temporarias-e-esporadicas-veja-como-funciona-cada-contratacao.ghtml
+
+11. AGÊNCIA BRASIL. Economia. Caged: país criou 644 mil novas vagas de trabalho em 2019. 2019. Disponível em: https://agenciabrasil.ebc.com.br/economia/noticia/2020-01/caged-pais-gerou-644-mil-novas-vagas-de-trabalho-em-2019
+
+12. WHO. World Health Organization. Coronavirus disease (COVID-19) advice for the public. Disponível em: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public
+
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
