@@ -314,5 +314,36 @@ O Gráfico 5 corresponde a taxa de desligamento do índice Caged dividido nos DR
 
 **Gráfico 5** - Taxa de desligamento Caged dividido pelos DRSs, no período de fevereiro de 2020 a março de 2021.
 
+## Dados PNAD
+
+Durante o período selecionado a pesquisa contou com uma amostra de 46 mil pessoas, sendo que destas, aproximadamente 38,5 mil apresentavam 14 anos ou mais de idade, compondo a força de trabalho. O Gráfico 6 contém as informações sobre a população de pessoas de 14 anos ou mais de idade ocupadas, desocupadas e fora da força de trabalho no estado de São Paulo para o período analisado.
+ 
+![timeseries PNAD](assets/img/timeseries-pnad.png)
+
+**Gráfico 6** - Número de ocupados, desocupados e fora da força de trabalho no estado de São Paulo - PNAD
+
+No Gráfico 6, a partir do mês de abril nota-se uma clara redução no número de pessoas ocupadas com um crescimento inversamente proporcional ao número de pessoas fora da força de trabalho, enquanto o número de desocupados mostra-se mais estável. Este dado evidencia que principalmente nestes primeiros meses, as pessoas que antes eram ocupadas ao invés de se encaixarem no grupo de desocupadas foram classificadas fora da força de trabalho. Algumas hipóteses para este fenômeno são: medo da pandemia, recebimento de auxílios governamentais (como Auxílio Emergencial), inexistência de vagas de empregos em suas cidades, ou por não terem onde deixar seus filhos durante o expediente de trabalho, as pessoas que perderam seus empregos não estavam na procura por novos, e para tanto não foram consideradas como desocupadas, fato este também observados na literatura por  Mattei e Heinen (2020). 
+
+No último trimestre de 2020, observa-se um aumento no número de ocupados, redução do número de pessoas fora da força de trabalho assim como no número de pessoas desocupadas, o que deu-se principalmente a uma redução dos níveis de transmissão do vírus, redução dos internados e abrandamento da fase do Plano SP na maioria dos DRSs do estado. Nota-se, porém, que no primeiro trimestre de 2021, houve um aumento do número de pessoas ocupadas, redução do número de pessoas fora da força de trabalho e aumento do número de pessoas desocupadas. Este aumento do número de pessoas desocupadas no primeiro trimestre pode ser em decorrência de um aumento das pessoas procurando emprego pós final de ano, tendência esta já observada em outras séries históricas ou até mesmo em decorrência de que neste período  o auxílio emergencial foi reduzido de forma significativa, o que fez com que os beneficiários do auxílio emergencial buscassem novas fontes de renda, muitas com quase-trabalhos, caracterizado pelo recebimento abaixo do salário mínimo e de forma instável (SIQUEIRA, et al., 2021).
+
+A questão sobre empregos formais e informais durante a pandemia, pode ser observada em destaque no Gráfico 7, no qual é retratado a evolução do número de empregos no setor privado  formais e informais e a relação com o nível de isolamento social praticado no estado.
+
+![timeseries PNAD - Tipo de Trabalho](assets/img/heatmap-labor-type-ipt.png)
+
+**Gráfico 7** - Número de empregos formais e informais no setor privado e o nível de isolamento no estado de São Paulo
+
+Como podemos observar no Gráfico 7, apesar de inicialmente ambas as séries de  empregos formais e informais apresentarem queda no segundo semestre de 2020, após este momento apresentam diferente evolução o que reflete até mesmo no nível de correlação apresentado com o isolamento social no estado, que pode ser constatado na Tabela 1. 
+
+**Tabela 1** - Correlação entre nível de isolamento e trabalhos formais e informais no setor privado do estado de SP
+
+|               | Emprego formal |        | Emprego informal |         |
+|:-------------:|:--------------:|:------:|:----------------:|:-------:|
+|               |       R        |    p   |         R        |    p    |
+| Isolamento SP |     -0.0090    | 0.9757 |      -0.6272     | 0.0164  |
+
+Enquanto a série de empregos formais, apresenta aumento seguido nos meses seguintes, a série relacionada aos empregos informais apresenta uma variação, com aumento do número de empregos no terceiro e quarto trimestre e redução no primeiro trimestre de 2021. Uma das hipóteses é de que com o aumento do isolamento social nos meses de janeiro e março de 2021, houve uma redução do número de trabalhadores informais, o que refletiu nos números da PNAD para este trimestre.
+
+Destaca-se que nos últimos anos o setor informal que vinha crescendo significativamente,  respondendo antes da crise, por aproximadamente 40% dos empregos no país, foi o setor que  apresentou maior retração, e por consequência maior número de demissões no país durante a pandemia [C.f. Nexus, notícias  28/01/2021]. 
+
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
