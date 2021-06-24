@@ -398,5 +398,55 @@ Por ser o setor que apresentou maior correlação com o nível de isolamento do 
 
 Pelo gráfico também é possível notar que o setor da alimentação e hospedagem apresentou uma grande queda já no início da pandemia, sendo um fato também constatado por Costa (2020) através da análise sobre as principais notícias sobre desemprego na pandemia. Cabe ressaltar que a recuperação deste setor não se mostrou tão próxima aos outros setores, principalmente pois esta é composta por um maior número de trabalhadores informais. Neste caso uma das hipóteses é de que vários comércios relacionados a este setor faliram já no início da pandemia e o mercado não apresentou demanda suficiente para reabertura de novos comércios e geração de novos empregos ao longo do ano. Além disso, este setor da economia continua sendo afetado pelas restrições de isolamento social vigentes (reduzindo a capacidade e horário destes estabelecimentos).
 
+## CAGED por DRS vs. Isolamento por DRS
+
+### Com correlação - Grande SP e RMC
+
+A Tabela 5 apresenta os dados de correlação do número de admissões e saldo com a série de isolamento social para cada um dos DRSs do estado de São Paulo. Nesta tabela, pode-se perceber que nem todos os 17 DRSs apresentaram correlação entre isolamento social e empregabilidade (admissões e saldo). Tanto o estoque quanto as demissões não apresentaram correlação e por isso não estão apresentados na tabela.
+
+**Tabela 5** - Correlação entre saldo e adminissões do CAGED com o isolamento social de cada distrito de saúde
+
+| Região | ADM (R)| p      | SALDO (R)| p      |
+|--------|--------|--------|----------|--------|
+| DRS 1  | -0.81  | 0.0003 | -0.8     | 0.0006 |
+| DRS 2  | -0.56  | 0.03   | -0.6     | 0.02   |
+| DRS 3  | -0.45  | 0.1    | -0.16    | 0.57   |
+| DRS 4  | -0.81  | 0.0004 | -0.82    | 0.0003 |
+| DRS 5  | -0.63  | 0.01   | -0.81    | 0.0004 |
+| DRS 6  | -0.63  | 0.01   | -0.74    | 0.002  |
+| DRS 7  | -0.79  | 0.0007 | -0.81    | 0.0003 |
+| DRS 8  | -0.18  | 0.52   | -0.12    | 0.65   |
+| DRS 9  | -0.7   | 0.004  | -0.74    | 0.0022 |
+| DRS 10 | -0.59  | 0.02   | -0.62    | 0.01   |
+| DRS 11 | -0.62  | 0.017  | -0.61    | 0.01   |
+| DRS 12 | -0.69  | 0.006  | -0.77    | 0.001  |
+| DRS 13 | -0.47  | 0.08   | -0.38    | 0.16   |
+| DRS 14 | -0.64  | 0.01   | -0.53    | 0.05   |
+| DRS 15 | -0.72  | 0.003  | -0.63    | 0.01   |
+| DRS 16 | -0.66  | 0.008  | -0.74    | 0.002  |
+| DRS 17 | -0.83  | 0.0002 | -0.79    | 0.0006 |
+
+Foi analisado, para cada DRS, a correlação entre isolamento social e os os dados de empregabilidade listados acima. Na Tabela 5 é possível observar que os DRSs que apresentam correlação moderada e forte entre empregabilidade (admissões e saldo) e isolamento social foram: DRS I (Grande São Paulo), DRS II (Araçatuba), DRS IV (Baixada Santista), DRS V (Barretos), DRS VI (Bauru), DRS VII (Campinas), DRS IX (Marília), DRS X (Piracicaba), DRS XI (Presidente Prudente), DRS XII (Registro), DRS XIV (São João da Boa Vista), DRS XV (São José do Rio Preto), DRS XVI (Sorocaba)  e DRS XVII (Taubaté). As correlações encontradas foram inversamente proporcionais, isto é, à medida que o isolamento social aumenta, a empregabilidade (admissões e saldo) diminui e vice-versa. Vale ressaltar que, apesar do saldo ser um dado diretamente relacionado tanto a admissões quanto a demissões, esses dados são independentes - empresas podem reduzir suas admissões mas não necessariamente precisam aumentar suas demissões. A partir das correlações encontradas é possível dizer que o isolamento social parece estar relacionado à empregabilidade da maioria dos municípios do estado de São Paulo, no entanto, correlação e causalidade são conceitos diferentes. Sabe-se que existem outras variáveis que afetam a empregabilidade e não foram abordadas neste trabalho.   
+
+![CAGED vs. IPT - Grande São Paulo](assets/img/caged-vs-ipt-gsp.png)
+
+Gráfico 11: Saldo, admissões e isolamento social no DRS I - Grande São Paulo entre Março de 2020 a Março de 2021
+
+Para o DRS I (Grande São Paulo) o Gráfico 11 apresenta que o início da pandemia (Março, Abril e Maio), foi o período em que o saldo (em vermelho no gráfico) apresentou os menores valores. À medida que o isolamento social diminuiu (linha azul) o saldo e as admissões (colunas) começaram a aumentar. Ressalta-se que há uma tendência histórica no aumento da contratação nos últimos meses do ano e uma tendência a aumento no número de demissões nos primeiros meses do ano. Essa tendência histórica está associada à maior demanda de alguns setores da economia no final do ano, aumentando a contratação neste período (PORTAL G1, 2019; AGÊNCIA BRASIL, 2020). 
+
+A empregabilidade sofre a influência de diversos fatores e a pandemia trouxe uma redução significativa no poder de compra da população brasileira, o que leva a uma recessão econômica e isso pode influenciar a empregabilidade. Alguns setores da economia foram mais afetados pela pandemia da Covid-19 e entraram em recessão, no entanto, outros setores apresentaram expansão (BRASIL, 2020). Como já discutido acima nas análises por setores da economia. No DRS-I, Grande São Paulo,  a principal atividade econômica é o setor de serviços, o que pode explicar a correlação encontrada. Infelizmente, o CAGED não oferece, para cada um dos municípios do país, dados de empregabilidade associados aos setores da economia, o que limita análises a respeito.
+
+Pelos dados do PNAD sabe-se que o isolamento social apresentou correlação significativa com a taxa de ocupados de setores da economia como comércio.Vale destacar que apesar  dos dados da PNAD e do CAGED avaliarem empregabilidade, eles seguem metodologias diferentes o que torna a comparação dos dados inadequada, no entanto, analisar a tendência parece uma estratégia válida (ALMEIDA et al, 2018). 
+
+Outro ponto a se destacar e que foge às estatísticas do CAGED são os empregos informais e a jornada dupla de trabalho. São trabalhadores que atuam de maneira informal nestes setores da economia (serviços, alimentação, hospedagem) e que trabalham nestes setores para complementar ou adequar sua renda (orçamento). Ao perderem estes empregos perdem parte da renda o que pode afetar seu poder de compra. A concentração da população do DRS-I que trabalha nos setores de serviços, alimentação e hospedagem é elevada, o que explica, em parte, os resultados encontrados. Sabe-se que uma parcela significativa dos trabalhadores deste setor atuam de maneira informal, conforme discutido anteriormente. Ao se decretar medidas de isolamento social mais rígidas, os setores da economia citados anteriormente são os mais afetados e a contratação bem como o saldo dos municípios deste DRS são reduzidos.  
+
+![CAGED vs. IPT - Região Metropolitana de Campinas](assets/img/caged-vs-ipt-rmc.png)
+
+Gráfico 11: Saldo, admissões e isolamento social no DRS VII - Campinas entre Março de 2020 a Março de 2021
+
+Assim como o DRS-I, o DRS - VII (Campinas), apresenta a mesma tendência (aumento do isolamento, redução da empregabilidade) observada no gráfico da Grande São Paulo. Campinas é o maior município do DRS-VII e o PIB é formado por mais de 90% dos setores de comércio e serviços.(CAMPINAS, s/d). O isolamento afeta diretamente tais setores, o que leva a uma redução da empregabilidade.
+
+Os gráficos das demais DRS podem ser encontrados no [Anexo II](assets/pdf/ANEXO-II.pdf).
+
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
