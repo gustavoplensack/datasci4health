@@ -10,6 +10,7 @@ REPO_ROOT = Repo(path='.', search_parent_directories=True).git.rev_parse(
     "--show-toplevel")
 
 PROCESSED_DATA_FOLDER = f'{REPO_ROOT}/data/processed'
+INTERIM_DATA_FOLDER = f'{REPO_ROOT}/data/interim'
 
 
 def generate():
@@ -18,7 +19,7 @@ def generate():
     """
 
     processed_caged_path =\
-        f'{PROCESSED_DATA_FOLDER}/caged_2020_processed_tabela_81.csv'
+        f'{INTERIM_DATA_FOLDER}/caged_2020_processed_tabela_81.csv'
     sp_drs_map_path =\
         f'{PROCESSED_DATA_FOLDER}/sp_drs_map.csv'
     annotated_caged_path = f'{PROCESSED_DATA_FOLDER}/annotated_caged.csv'
