@@ -274,5 +274,45 @@ O Plano São Paulo, do governo estadual, classificou e ainda classifica cada um 
 
 A Organização Mundial de Saúde (OMS) indica como aceitável uma taxa de isolamento social de 50%, e como ideal a taxa de 70% para o controle da doença (WHO, 2020). Houveram momentos e até dias seguidos em que vários municípios atingiram estes valores, mas a média indica que o valor de 70% nunca foi alcançado nos meses analisados. Os indicadores de 50% foram obtidos em alguns momentos, como no início da pandemia, mas em momentos em que a taxa de transmissão estava elevada, como nos meses de julho, o isolamento social não apresentou um crescimento para a maioria dos DRSs. Em nenhum momento, da fase temporal analisada, houve um decreto de lockdown estadual mesmo em situações extremamente graves, com ocupação de mais de 90% dos leitos de UTI - Covid para a maioria dos DRS. Vale salientar que medidas como essa, apesar de necessárias do ponto de vista de saúde, trazem impactos negativos significativos à economia. 
 
+## Dados CAGED
+
+Conforme discutido anteriormente, como os dados de isolamento social sofrem influência dos decretos do Plano São Paulo e este reúne os municípios em 17 DRSs, os dados de isolamento social são apresentados desta forma. Portanto os dados do CAGED também foram organizados segundo os 17 DRSs. O Gráfico 2  representa o valor do número de admissões e demissões  no estado de São Paulo.
+
+![timeseries CAGED](assets/img/timeseries-caged.png)
+
+**Gráfico 2** - Dados Caged: número de admissões, desligamentos e saldo do estado de SP.
+
+Foi  possível observar que no início da pandemia entre  os meses de março, abril e maio de 2020, houve uma queda no número de admissões. Já no período que compreende o mês de junho a novembro do mesmo ano o gráfico demonstra melhora. No mês seguinte observou novamente queda.  No início do ano de 2021 houve melhora nas admissões e saldo com discreta ascensão nos meses de Janeiro e Fevereiro.
+
+Os três primeiros meses da pandemia foram caracterizados com perdas no trabalho formal. Cabe ressaltar que além da queda, o isolamento social também dificultava a busca por trabalho, uma vez  que as leis sanitárias estavam sem flexibilização, para conter os casos da COVID-19.
+
+A partir de junho foi implementada pelo estado a abertura da economia, que como comentado na seção do isolamento considera a pluralidade na flexibilização, onde cada município do estado adotou sua regra, que variava de acordo com o número de novos casos da COVID e  número de leitos disponíveis.
+
+O Gráfico 3  demonstra o número de admissões no estado de SP e seus DRSs.  Para compreensão do gráfico, os tons de verde (maior intensidade)  significam maiores admissões, à medida que os tons vão clareando (amarelo) sinaliza diminuição nas taxas de admissões, a cor vermelha indica o período mais crítico com menores valores.
+
+![heatmap CAGED - Admissões](assets/img/heatmap-admissoes-caged.png)
+
+**Gráfico 3** - Número de admissões de acordo com as regiões dos DRSs do estado SP no período  entre fevereiro de 2020 a março de 2021.
+
+Foi possível observar que no período pré-pandemia apenas o DRS V demonstrava instabilidade no setor de empregos formais, porém cabe ressaltar que entre as regiões dos DRSs VII  e XI, já era sinalizado uma diminuição das admissões. Isto sugere que a crise no setor de empregos já apresentava instabilidade, e que a pandemia, apenas intensificou o cenário. Visto que o gráfico ao ser analisado nos meses seguintes, março, abril, maio e junho de 2020, demonstra o período mais crítico (início da pandemia) no qual as leis sanitárias eram mais rigorosas para conter a pandemia da Covid- 19. No terceiro trimestre de 2020, prevaleceram  os tons de amarelo em todos os DRSs, o que demonstrou que na segunda metade do ano a crise no setor apenas aumentava. Neste período, cabe contextualizar que a medida  governamental  como o benefício do  Auxílio Emergencial, pode ter influenciado para que os índices de admissão não aumentassem.
+
+Nos meses de outubro e novembro observou-se uma melhora em todo o estado, uma vez que o plano São Paulo de incentivo à economia  já estava em vigor. O mês de dezembro novamente apresenta uma queda. Neste período de fim de ano é comum que alguns setores, principalmente o comércio, tenham vagas temporárias, e que os contratos sejam finalizados, no último dia do ano. Tal parecer pode ser um indicativo na queda de empregos formais.
+
+O Gráfico 4 apresenta os valores de saldo do estado de SP em seus DRSs no período fevereiro 2020 a março de 2021.
+
+![heatmap CAGED - Saldo](assets/img/heatmap-saldo-caged.png)
+
+**Gráfico 4** - Valores do saldo segundo o índice Caged no estado de SP, durante o período fevereiro 2020 a março de 2021.
+
+O gráfico demonstra que em relação ao saldo de empregos do estado de SP nos DRSs do mesmo, o mês mais crítico em toda expansão territorial foi o mês de abril, segundo mês da pandemia. Com discreta melhora nos dois meses subsequentes.
+
+De setembro a novembro os saldos em todas as regiões de uma maneira geral se mantiveram estáveis. Em dezembro, o gráfico demonstra perdas, o que corrobora com o Gráfico 3, em relação à queda do mês vigente.
+
+O Gráfico 5 corresponde a taxa de desligamento do índice Caged dividido nos DRSs, em congruência aos resultados anteriores. O início da pandemia se mostrou o mais crítico em relação a perdas de trabalho formal. O que se destaca neste gráfico é que próximo a março de 2020 todo o estado apresenta a maior taxa de desligamento. Este dado pode ter sido agravado também com a diminuição do valor do auxílio emergencial no final do ano, reduzindo a demanda de trabalho formal.
+
+![heatmap CAGED - Desligamentos](assets/img/heatmap-admissoes-caged.png)
+
+**Gráfico 5** - Taxa de desligamento Caged dividido pelos DRSs, no período de fevereiro de 2020 a março de 2021.
+
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
