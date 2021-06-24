@@ -43,7 +43,7 @@ A análise das séries referentes à empregabilidade no país evidenciou importa
 🎥 [Proposta](https://drive.google.com/file/d/1r17x60hF7Gx_e8v6M-6V-O7QfEi8iRQL/view)
 
 ## Vídeo da Apresentação Final
-🎥 [TBD](tbd)
+🎥 [Apresentação Final](https://drive.google.com/file/d/1KoxZ8m_FprsFUN0Bzi7Lzm_eZuSl1OJ8/view?usp=sharing)
 
 # Slides do Projeto
 ## Slides da Proposta
