@@ -441,9 +441,9 @@ Foi analisado, para cada DRS, a correlação entre isolamento social e os os dad
 
 ![CAGED vs. IPT - Grande São Paulo](assets/img/caged-vs-ipt-gsp.png)
 
-Gráfico 11: Saldo, admissões e isolamento social no DRS I - Grande São Paulo entre Março de 2020 a Março de 2021
+**Gráfico 10** - Saldo, admissões e isolamento social no DRS I - Grande São Paulo entre Março de 2020 a Março de 2021
 
-Para o DRS I (Grande São Paulo) o Gráfico 11 apresenta que o início da pandemia (Março, Abril e Maio), foi o período em que o saldo (em vermelho no gráfico) apresentou os menores valores. À medida que o isolamento social diminuiu (linha azul) o saldo e as admissões (colunas) começaram a aumentar. Ressalta-se que há uma tendência histórica no aumento da contratação nos últimos meses do ano e uma tendência a aumento no número de demissões nos primeiros meses do ano. Essa tendência histórica está associada à maior demanda de alguns setores da economia no final do ano, aumentando a contratação neste período (PORTAL G1, 2019; AGÊNCIA BRASIL, 2020). 
+Para o DRS I (Grande São Paulo) o Gráfico 10 apresenta que o início da pandemia (Março, Abril e Maio), foi o período em que o saldo (em vermelho no gráfico) apresentou os menores valores. À medida que o isolamento social diminuiu (linha azul) o saldo e as admissões (colunas) começaram a aumentar. Ressalta-se que há uma tendência histórica no aumento da contratação nos últimos meses do ano e uma tendência a aumento no número de demissões nos primeiros meses do ano. Essa tendência histórica está associada à maior demanda de alguns setores da economia no final do ano, aumentando a contratação neste período (PORTAL G1, 2019; AGÊNCIA BRASIL, 2020). 
 
 A empregabilidade sofre a influência de diversos fatores e a pandemia trouxe uma redução significativa no poder de compra da população brasileira, o que leva a uma recessão econômica e isso pode influenciar a empregabilidade. Alguns setores da economia foram mais afetados pela pandemia da Covid-19 e entraram em recessão, no entanto, outros setores apresentaram expansão (BRASIL, 2020). Como já discutido acima nas análises por setores da economia. No DRS-I, Grande São Paulo,  a principal atividade econômica é o setor de serviços, o que pode explicar a correlação encontrada. Infelizmente, o CAGED não oferece, para cada um dos municípios do país, dados de empregabilidade associados aos setores da economia, o que limita análises a respeito.
 
@@ -453,9 +453,9 @@ Outro ponto a se destacar e que foge às estatísticas do CAGED são os empregos
 
 ![CAGED vs. IPT - Região Metropolitana de Campinas](assets/img/caged-vs-ipt-rmc.png)
 
-Gráfico 11: Saldo, admissões e isolamento social no DRS VII - Campinas entre Março de 2020 a Março de 2021
+**Gráfico 11** - Saldo, admissões e isolamento social no DRS VII - Campinas entre Março de 2020 a Março de 2021
 
-Assim como o DRS-I, o DRS - VII (Campinas), apresenta a mesma tendência (aumento do isolamento, redução da empregabilidade) observada no gráfico da Grande São Paulo. Campinas é o maior município do DRS-VII e o PIB é formado por mais de 90% dos setores de comércio e serviços.(CAMPINAS, s/d). O isolamento afeta diretamente tais setores, o que leva a uma redução da empregabilidade.
+Assim como o DRS-I, o DRS - VII (Campinas), apresenta a mesma tendência (aumento do isolamento, redução da empregabilidade) observada no gráfico da Grande São Paulo. Campinas é o maior município do DRS-VII e o PIB é formado por mais de 90% dos setores de comércio e serviços.(CAMPINAS, s/d). O isolamento afeta diretamente tais setores, o que leva a uma redução da empregabilidade, como pode ser observado no Gráfico 11.
 
 Os gráficos das demais DRS podem ser encontrados no [Anexo II](assets/pdf/ANEXO-II.pdf).
 
@@ -466,11 +466,11 @@ Analisando a tabela Tabela 5, nota-se que nem todas as DRS apresentaram correla�
 
 ![CAGED vs. IPT - Franca](assets/img/caged-vs-ipt-franca.png)
 
-Gráfico 12: Saldo, admissões e isolamento social no DRS VIII - Franca entre Março de 2020 a Março de 2021.
+**Gráfico 12** - Saldo, admissões e isolamento social no DRS VIII - Franca entre Março de 2020 a Março de 2021.
 
 ![CAGED vs. IPT - Ribeirão Preto](assets/img/caged-vs-ipt-ribeirao-preto.png)
 
-Gráfico 13: Saldo, admissões e isolamento social no DRS XIII - Ribeirão Preto entre Março de 2020 a Março de 2021.
+**Gráfico 13** - Saldo, admissões e isolamento social no DRS XIII - Ribeirão Preto entre Março de 2020 a Março de 2021.
 
 Analisando os gráficos 12 e 13 apesar da não existência de correlação, ainda é possível verificar que estes DRSs apresentam padrões similares para as séries de saldo e admissões, com um cenário menos otimista nos primeiros meses acompanhado de uma leve melhora nos meses seguintes.
 
