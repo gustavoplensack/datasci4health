@@ -9,3 +9,5 @@ Nesta pasta você deve encontrar arquivos estáticos com metadados e/ou links co
 ## Notas técnicas
 * IPEA - Marcos Hecksher: VALOR IMPRECISO POR MÊS EXATO: MICRODADOS E INDICADORES MENSAIS BASEADOS NA PNAD CONTÍNUA;
 * IBGE: DIFERENÇAS METODOLÓGICAS ENTRE O CADASTRO GERAL DE EMPREGADOS E DESEMPREGADOS (Caged) E A PESQUISA NACIONAL POR AMOSTRA DE DOMICÍLIOS CONTÍNUA (PNAD Contínua);
+
+Ambas na pasta `pdf/`
