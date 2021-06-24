@@ -475,5 +475,10 @@ Nosso trabalho buscou analisar a correlação entre o nível de isolamento socia
 
 **Vale ressaltar que o isolamento social é, e segue sendo, uma das principais formas de reduzir a circulação do vírus e salvar vidas.**
 
+# Trabalhos Futuros
+Como foi ressaltado na conclusão, a análise de um fenômeno complexo como o desemprego demanda de uma análise mais detalhada sobre o cenário macroeconômico do país, como a taxa de juros, inflação, PIB, rendimento per capita e consumo, bem como um entendimento mais profundo sobre como os dados se relacionam entre si. Os dados da PNAD apresentam uma possível migração dos empregados para fora da força de trabalho. Explorar essa área poderia trazer investigações interessantes. Outra fonte de dados bastante relevante seria explorar os microdados da PNAD contínua.
+
+Além disso,  a apresentação dos índices de desemprego varia muito entre as diversas projeções já publicadas, as quais empregam metodologias diferentes de acordo com os interesses que embasam as pesquisas de cada instituição. Para ampliar o entendimento sobre a análise regional seria interessante estudar com mais detalhes as regiões dos DRSs e suas principais atividades econômicas.
+
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
