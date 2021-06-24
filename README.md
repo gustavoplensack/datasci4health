@@ -328,7 +328,7 @@ No último trimestre de 2020, observa-se um aumento no número de ocupados, redu
 
 A questão sobre empregos formais e informais durante a pandemia, pode ser observada em destaque no Gráfico 7, no qual é retratado a evolução do número de empregos no setor privado  formais e informais e a relação com o nível de isolamento social praticado no estado.
 
-![timeseries PNAD - Tipo de Trabalho](assets/img/heatmap-labor-type-ipt.png)
+![timeseries PNAD - Tipo de Trabalho](assets/img/timeseries-pnad-labor-type-ipt.png)
 
 **Gráfico 7** - Número de empregos formais e informais no setor privado e o nível de isolamento no estado de São Paulo
 
@@ -344,6 +344,27 @@ Como podemos observar no Gráfico 7, apesar de inicialmente ambas as séries de 
 Enquanto a série de empregos formais, apresenta aumento seguido nos meses seguintes, a série relacionada aos empregos informais apresenta uma variação, com aumento do número de empregos no terceiro e quarto trimestre e redução no primeiro trimestre de 2021. Uma das hipóteses é de que com o aumento do isolamento social nos meses de janeiro e março de 2021, houve uma redução do número de trabalhadores informais, o que refletiu nos números da PNAD para este trimestre.
 
 Destaca-se que nos últimos anos o setor informal que vinha crescendo significativamente,  respondendo antes da crise, por aproximadamente 40% dos empregos no país, foi o setor que  apresentou maior retração, e por consequência maior número de demissões no país durante a pandemia [C.f. Nexus, notícias  28/01/2021]. 
+
+## Ocupados PNAD vs. Isolamento
+Uma das primeiras análises que fizemos comparando os dados de PNAD com os dados de isolamento para o estado de SP foi a análise de correlação entre estas séries. Os resultados da correlação podem ser observados na Tabela 2.
+
+**Tabela 2** - Estudo de correlação usando métodos de Spearman e p-valor associando a taxa de Isolamento Social no Estado de SP e PNAD.
+
+| -                          | Desocupados        | Ocupados           | Fora da Força de Trabalho | Isolamento no Estado de SP |
+|----------------------------|--------------------|--------------------|---------------------------|----------------------------|
+| Desocupados                | 1                  | -                  | -                         | -                          |
+| Ocupados                   | -0,6000 (p=0,0085) | 1                  | -                         | -                          |
+| Fora da Força de Trabalho  | 0,8286 (p=0,0000)  | -0,8286 (p=0,0000) | 1                         |                            |
+| Isolamento no Estado de SP | -0,3833 (p=0,1164) | -0,6748 (p=0,0021) | 0,3833 (p=0,1164)         | 1                          |
+
+Buscando analisar visualmente as séries com maior correlação em um mesmo gráfico, implementamos o Gráfico 8, que apresenta as séries históricas de ocupados e isolamento para todo o estado de SP. 
+
+![timeseries PNAD geral vs. IPT](assets/img/pnad-vs-ipt-geral.png)
+
+**Gráfico 8** - Isolamento Social e Número de Ocupados para o Estado de São Paulo no período analisado.
+
+Analisando o gráfico e a informação sobre a correlação entre as séries, é possível notar uma redução no número de ocupados nos primeiros meses da pandemia no estado de São Paulo, acompanhado de uma leve melhora à medida que o isolamento diminui nos meses finais do ano. É possível notar que o aumento do isolamento social está correlacionado com a redução da ocupação. Na análise da correlação entre as séries da PNAD, também é possível notar que a redução da ocupação está correlacionada aos aumentos de pessoas fora da força e desocupadas.
+
 
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
