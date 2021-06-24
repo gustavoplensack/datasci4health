@@ -365,6 +365,20 @@ Buscando analisar visualmente as séries com maior correlação em um mesmo grá
 
 Analisando o gráfico e a informação sobre a correlação entre as séries, é possível notar uma redução no número de ocupados nos primeiros meses da pandemia no estado de São Paulo, acompanhado de uma leve melhora à medida que o isolamento diminui nos meses finais do ano. É possível notar que o aumento do isolamento social está correlacionado com a redução da ocupação. Na análise da correlação entre as séries da PNAD, também é possível notar que a redução da ocupação está correlacionada aos aumentos de pessoas fora da força e desocupadas.
 
+## Total Admissão e Saldo CAGED vs. Isolamento
+Repetindo o que fora aplicado para a PNAD, aplicamos ao CAGED uma análise de correlação das principais séries históricas com os dados do isolamento no estado de SP. Foram considerados o total de admissões, total de desligamentos e saldo. Como demonstra a Tabela 3.
+
+**Tabela 3** - Estudo de correlação usando métodos de Spearman e p-valor associado para CAGED e Taxa de Isolamento Social no Estado de SP.
+
+| -                          | Total de Admissões | Total de Desligamentos | Saldo              | Isolamento no Estado de SP |
+|----------------------------|--------------------|------------------------|--------------------|----------------------------|
+| Total de Admissões         | 1                  | -                      | -                  | -                          |
+| Total de Desligamentos     | 0,4176 (p=0,1075)  | 1                      | -                  | -                          |
+| Saldo                      | 0,8324 (p=0,0001)  | -0,0471 (p=0,8286)     | 1                  |                            |
+| Isolamento no Estado de SP | -0,3833 (p=0,1164) | 0,0354 (p=0,8964)      | -0,3864 (p=0,1393) | 1                          |
+
+Entre CAGED e IPT não foi possível observar nenhuma correlação mais forte nem com p-valor significativo.
+
 
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
