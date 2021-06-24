@@ -463,5 +463,12 @@ Gráfico 13: Saldo, admissões e isolamento social no DRS XIII - Ribeirão Preto
 
 Analisando os gráficos 12 e 13 apesar da não existência de correlação, ainda é possível verificar que estes DRSs apresentam padrões similares para as séries de saldo e admissões, com um cenário menos otimista nos primeiros meses acompanhado de uma leve melhora nos meses seguintes.
 
+# Limitações do Estudo
+Nosso estudo apresenta limitações que devem ser consideradas na avaliação de nossos resultados. A análise de associação aqui utilizada nos permite apenas a inferência de uma correlação entre isolamento social e empregabilidade no estado de SP, não sendo possível a avaliação de causa e efeito.
+
+Além disso, cabe salientar alguns aspectos sobre as bases de dados utilizadas que podem afetar os dados coletados: a PNAD que antes era realizada de modo presencial, no ano de 2020, com a pandemia passou a ser feita de modo online, o que pode ter reduzido significativamente a participação dos entrevistados. O CAGED também apresentou mudanças importantes no ano de 2020, contabilizando também os empregos temporários e não apenas os definitivos, o que influenciou diretamente no número de empregos formais informados a partir deste ano. A base dados do IPT considera deslocamentos maiores que 200m como não cumprimento do isolamento social.
+
+Também é necessário levar em consideração a crise econômica prévia que o país já passava, e importantes mudanças na CLT, gerando uma precarização do trabalho e que a pandemia apenas intensificou o processo. Neste caso, não é possível inferir até que ponto foi o isolamento social que influenciou na empregabilidade e até quanto a perda de empregos seria resultante da crise econômica dos últimos anos.
+
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
