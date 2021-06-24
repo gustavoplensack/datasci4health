@@ -1,0 +1,49 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Carol\Desktop\aula - ciência e visualização de dados em saúde\projeto ciencia de dados\novos\comandos referentes aos trabalhado
+> res formais e informais - pnad.log
+  log type:  text
+ opened on:  23 Jun 2021, 11:06:14
+
+. * inicialmente realizamos o teste de normalidade
+
+. swilk privado_com_carteira privado_sem_carteira
+
+                   Shapiro-Wilk W test for normal data
+
+    Variable |    Obs       W           V         z       Prob>z
+-------------+--------------------------------------------------
+privado_co~a |     14    0.69551      5.635     3.404    0.00033
+privado_se~a |     14    0.82933      3.158     2.264    0.01178
+
+. * como nenhuma das variáveis apresentou distribuição normal, utilizamos o teste de correlação de spearman com o isolamento social no estado
+
+. spearman privado_com_carteira privado_sem_carteira iso_sp, stats(rho p)
+(obs=14)
+
++-----------------+
+|  Key            |
+|-----------------|
+|   rho           |
+|   Sig. level    |
++-----------------+
+
+             | p~com_~a p~sem_~a   iso_sp
+-------------+---------------------------
+privado_co~a |   1.0000 
+             | 
+             |
+privado_se~a |   0.3836   1.0000 
+             |   0.1758 
+             |
+      iso_sp |  -0.0090  -0.6272   1.0000 
+             |   0.9757   0.0164 
+             |
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Carol\Desktop\aula - ciência e visualização de dados em saúde\projeto ciencia de dados\novos\comandos referentes aos trabalhado
+> res formais e informais - pnad.log
+  log type:  text
+ closed on:  23 Jun 2021, 11:08:03
+-----------------------------------------------------------------------------------------------------------------------------------------------------
