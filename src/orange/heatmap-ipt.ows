@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(150, 150)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(345.0, 145.0)" />
+		<node id="2" name="Heat Map" qualified_name="Orange.widgets.visualize.owheatmap.OWHeatMap" project_name="Orange3" version="" title="Heat Map" position="(311.0, 321.0)" />
+		<node id="3" name="Line Plot" qualified_name="Orange.widgets.visualize.owlineplot.OWLinePlot" project_name="Orange3" version="" title="Line Plot" position="(337.0, 231.0)" />
+		<node id="4" name="Bar Plot" qualified_name="Orange.widgets.visualize.owbarplot.OWBarPlot" project_name="Orange3" version="" title="Bar Plot" position="(283.0, 419.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="2" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="3" source_node_id="0" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/Users/flavi/Documents/1 semestre 2021/Unicamp/Dados orange correto.csv'}, {'encoding': 'utf-8', 'delimiter': ';', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Categorical'}, {'start': 1, 'stop': 14, 'value': 'Numeric'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/flavi/Documents/1 semestre 2021/Unicamp/para orange - sem virgula.csv'}, {'encoding': 'utf-8', 'delimiter': ';', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 14, 'value': 'Numeric'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/flavi/Documents/1 semestre 2021/Unicamp/para orange.csv'}, {'encoding': 'utf-8', 'delimiter': ';', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 14, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': ',', 'group_separator': '.'})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/flavi/Documents/1 semestre 2021/Unicamp', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02 \x00\x00\x00\xd2\x00\x00\x035\x00\x00\x02\x06\x00\x00\x02 \x00\x00\x00\xd2\x00\x00\x035\x00\x00\x02\x06\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02 \x00\x00\x00\xd2\x00\x00\x035\x00\x00\x02\x06', '__version__': 3}</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xd7\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xd7\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xd7', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="2" format="pickle">gASVqgQAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMCGF2ZXJhZ2VzlImMFWNvbF9jbHVzdGVyaW5n
+X21ldGhvZJSMBU5vbmVflIwMY29sb3JfY2VudGVylEsAjBBjb2x1bW5fbGFiZWxfcG9zlEsCjBJj
+b250cm9sQXJlYVZpc2libGWUiIwGbGVnZW5klIiMDG1lcmdlX2ttZWFuc5SJjA5tZXJnZV9rbWVh
+bnNfa5RLMowMcGFsZXR0ZV9uYW1llIwVbGluZWFyX2JneXdfMjBfOThfYzY2lIwVcm93X2NsdXN0
+ZXJpbmdfbWV0aG9klIwKQ2x1c3RlcmluZ5SME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMA
+AAAAAAAAAAAXAAAFVQAAAtcAAAAAAAAAFwAABVUAAALXAAAAAAIAAAAFVgAAAAAAAAAXAAAFVQAA
+AteUjA1zZWxlY3RlZF9yb3dzlF2UjA50aHJlc2hvbGRfaGlnaJRHP/AAAAAAAACMDXRocmVzaG9s
+ZF9sb3eURwAAAAAAAAAAjAtfX3ZlcnNpb25fX5RLA4wQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9y
+YW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMFGFubm90
+YXRpb25fY29sb3JfdmFylE5K/v///4aUjA5hbm5vdGF0aW9uX3ZhcpSMDUNsYXNzaWZpY2FjYW+U
+S2WGlIwbY29sdW1uX2Fubm90YXRpb25fY29sb3Jfa2V5lE5K/v///4aUjAxzcGxpdF9ieV92YXKU
+Tkr+////hpSMEXNwbGl0X2NvbHVtbnNfa2V5lE5K/v///4aUaBVLA3WMCmF0dHJpYnV0ZXOUfZQo
+aCJLAYwKMDEvMDMvMjAyMJRLAowKMDEvMDQvMjAyMJRLAowKMDEvMDUvMjAyMJRLAowKMDEvMDYv
+MjAyMJRLAowKMDEvMDcvMjAyMJRLAowKMDEvMDgvMjAyMJRLAowKMDEvMDkvMjAyMJRLAowKMDEv
+MTAvMjAyMJRLAowKMDEvMTEvMjAyMJRLAowKMDEvMTIvMjAyMJRLAowKMDEvMDEvMjAyMZRLAowK
+MDEvMDIvMjAyMZRLAowKMDEvMDMvMjAyMZRLAnWMBW1ldGFzlH2UdWJoGimBlH2UKGgdfZQoaB9O
+Sv7///+GlGghjA1DbGFzc2lmaWNhY2FvlEtnhpRoJE5K/v///4aUaCZOSv7///+GlGgoTkr+////
+hpRoFUsDdWgqfZQojAowMS8wMy8yMDIwlEsCjAowMS8wNC8yMDIwlEsCjAowMS8wNS8yMDIwlEsC
+jAowMS8wNi8yMDIwlEsCjAowMS8wNy8yMDIwlEsCjAowMS8wOC8yMDIwlEsCjAowMS8wOS8yMDIw
+lEsCjAowMS8xMC8yMDIwlEsCjAowMS8xMS8yMDIwlEsCjAowMS8xMi8yMDIwlEsCjAowMS8wMS8y
+MDIxlEsCjAowMS8wMi8yMDIxlEsCjAowMS8wMy8yMDIxlEsCdWg5fZSMDUNsYXNzaWZpY2FjYW+U
+SwNzdWJldS4=
+</properties>
+		<properties node_id="3" format="pickle">gASVYwIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lImMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
+ZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAAAAAAAFwAABVUAAALXAAAAAAAAABcAAAVVAAAC
+1wAAAAACAAAABVYAAAAAAAAAFwAABVUAAALXlIwJc2VsZWN0aW9ulF2UjApzaG93X2Vycm9ylImM
+CXNob3dfbWVhbpSJjA1zaG93X3Byb2ZpbGVzlIiMCnNob3dfcmFuZ2WUiYwPdmlzdWFsX3NldHRp
+bmdzlH2UjAZGaWd1cmWUjARNZWFulIwFV2lkdGiUh5RLDHOMC19fdmVyc2lvbl9flEsBjBBjb250
+ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQo
+jAZ2YWx1ZXOUfZQojAlncm91cF92YXKUjA1DbGFzc2lmaWNhY2FvlEtlhpRoEUsBdYwKYXR0cmli
+dXRlc5R9lChoHEsBjAowMS8wMy8yMDIwlEsCjAowMS8wNC8yMDIwlEsCjAowMS8wNS8yMDIwlEsC
+jAowMS8wNi8yMDIwlEsCjAowMS8wNy8yMDIwlEsCjAowMS8wOC8yMDIwlEsCjAowMS8wOS8yMDIw
+lEsCjAowMS8xMC8yMDIwlEsCjAowMS8xMS8yMDIwlEsCjAowMS8xMi8yMDIwlEsCjAowMS8wMS8y
+MDIxlEsCjAowMS8wMi8yMDIxlEsCjAowMS8wMy8yMDIxlEsCdYwFbWV0YXOUfZR1YmF1Lg==
+</properties>
+		<properties node_id="4" format="pickle">gASVVgIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
+ZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAD/////////+AAABVYAAALYAAABZAAAAG0AAAT/AAAC
+bAAAAAACAAAABVYAAAAAAAAAFwAABVUAAALXlIwJc2VsZWN0aW9ulE6MD3Zpc3VhbF9zZXR0aW5n
+c5R9lIwFZ3JhcGiUfZSMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFu
+Z2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojAlhbm5vdF92
+YXKUjA1DbGFzc2lmaWNhY2FvlEtlhpSMCWNvbG9yX3ZhcpROSv7///+GlIwJZ3JvdXBfdmFylE5K
+/v///4aUjAxzZWxlY3RlZF92YXKUjAowMS8wNC8yMDIwlEtmhpRoCH2UaApLAXWMCmF0dHJpYnV0
+ZXOUfZQoaBVLAYwKMDEvMDMvMjAyMJRLAmgcSwKMCjAxLzA1LzIwMjCUSwKMCjAxLzA2LzIwMjCU
+SwKMCjAxLzA3LzIwMjCUSwKMCjAxLzA4LzIwMjCUSwKMCjAxLzA5LzIwMjCUSwKMCjAxLzEwLzIw
+MjCUSwKMCjAxLzExLzIwMjCUSwKMCjAxLzEyLzIwMjCUSwKMCjAxLzAxLzIwMjGUSwKMCjAxLzAy
+LzIwMjGUSwKMCjAxLzAzLzIwMjGUSwJ1jAVtZXRhc5R9lHViYXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
