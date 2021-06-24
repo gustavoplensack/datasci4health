@@ -385,7 +385,18 @@ A Tabela 4 apresenta os valores de correlação obtidos entre o número de ocupa
 
 **Tabela 4** - Correlação entre o número de empregos dos diferentes setores da PNAD com o isolamento social do estado de São Paulo (fevereiro de 2020 a março de 2021).
 
-![PNAD vs. ipt correlation table](assets/img/pnad-corr-table.png)
+| Setor da economia          | R     | p      |
+|----------------------------|-------|--------|
+| Agricultura e Agropecuária |  0,04 |  0,87  |
+| Indústria                  | -0,67 |  0,002 |
+| Construção                 | -0,64 |  0,003 |
+| Comércio                   | -0,80 | <0.001 |
+| Transporte                 | -0,43 |  0,07  |
+| Alimentação/hospedagem     | -0,54 |  0,01  |
+| Informação/comunicação     | -0,53 |  0,02  |
+| Educação/Saúde             | -0,05 |  0,83  |
+| Outros serviços            | -0,38 |  0,11  |
+| Serviços domésticos        | -0,38 |  0,11  |
 
 Entre os que não apresentaram correlações significativas com o isolamento podemos destacar os setores da agricultura e da educação/saúde. No caso do setor da agricultura e pecuária, foi um dos únicos setores que não apresentou inflexão com a pandemia visto que não teve suas atividades paralisadas em decorrência da pandemia por ser considerada uma atividade essencial e, apesar do aumento da inflação e da redução do consumo no país, aumentou-se significativamente neste período as exportações de soja, produtos da cana de açúcar, carnes suínas e algodão, (SCHNEIDER, et al., 2020). Já no caso do setor de educação e saúde, é possível que exista um contraponto:apesar de uma possível redução no número de profissionais ligados à educação em decorrência da diminuição de alunos na rede particular de ensino, no setor de saúde houve um aumento expressivo no número de vagas, principalmente das profissões relacionadas ao enfrentamento direto da pandemia como técnicos de enfermagem, médicos, enfermeiros e fisioterapeutas.
 O Gráfico 9 apresenta a evolução do número de ocupados dos setores que apresentaram correlação com o isolamento social praticado no estado de São Paulo. 
