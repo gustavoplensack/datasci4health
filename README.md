@@ -517,5 +517,17 @@ Além disso,  a apresentação dos índices de desemprego varia muito entre as d
 
 12. WHO. World Health Organization. Coronavirus disease (COVID-19) advice for the public. Disponível em: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public
 
+13. Fayyad, U., Piatetsky-Shapiro, G., & Smyth, P. (1996). From Data Mining to Knowledge Discovery in Databases. AI Magazine, 17(3), 37. https://doi.org/10.1609/aimag.v17i3.1230
+
+14. Suliano D. Caracterização das Pesquisas Domiciliares com Ênfase na PNAD Contínua. Ceará; 2017.
+
+15. Instituto Brasileiro de Geografia e Estatística (IBGE). O IBGE apoiando o combate a COVID-19 [Internet]. [cited 2021 May 5]. Available from: https://covid19.ibge.gov.br/pnad-covid/
+
+16. Instituto Brasileiro de Geografia e Estatística. Pesquisa Nacional por Amostra de Domicílios Contínua - PNAD Contínua [Internet]. [cited 2021 May 5]. Available from: https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html?=&t=o-que-e Instituto de Pesquisa Econômica Aplicada. Ministério do Trabalho. Mercado de trabalho: conjuntura e análise. Brasília; 2019.
+
+17. Corseuil CHL, Ramos L, Azevedo B de S, Russo FM. Mais sobre as diferenças na evolução do emprego formal na PNAD contínua e no CAGED. 2019.
+
+18. Ministério da Economia. Nota Técnica: Substituição da captação dos dados do Caged pelo eSocial. 2020. Disponível em: http://pdet.mte.gov.br/o-que-e-novo-caged.
+
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
