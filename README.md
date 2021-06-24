@@ -448,5 +448,20 @@ Assim como o DRS-I, o DRS - VII (Campinas), apresenta a mesma tendência (aument
 
 Os gráficos das demais DRS podem ser encontrados no [Anexo II](assets/pdf/ANEXO-II.pdf).
 
+### Sem correlação
+
+Analisando a tabela Tabela 5, nota-se que nem todas as DRS apresentaram correlação para as séries históricas de saldo e admissões quando analisadas com o isolamento praticado, como é o caso do DRS - III (Araraquara), DRS - VIII (Franca) e DRS-XIII (Ribeirão Preto). Em nosso ponto de vista, este comportamento para estas regiões pode estar relacionado com o tipo da atividade econômica predominante nas mesmas, que são atividades relacionadas ao agronegócio e à indústria (em especial para Franca). Também é notável, que estes são DRSs com médias de isolamento dentre as mais altas do estado.
+
+
+![CAGED vs. IPT - Franca](assets/img/caged-vs-ipt-franca.png)
+
+Gráfico 12: Saldo, admissões e isolamento social no DRS VIII - Franca entre Março de 2020 a Março de 2021.
+
+![CAGED vs. IPT - Ribeirão Preto](assets/img/caged-vs-ipt-ribeirao-preto.png)
+
+Gráfico 13: Saldo, admissões e isolamento social no DRS XIII - Ribeirão Preto entre Março de 2020 a Março de 2021.
+
+Analisando os gráficos 12 e 13 apesar da não existência de correlação, ainda é possível verificar que estes DRSs apresentam padrões similares para as séries de saldo e admissões, com um cenário menos otimista nos primeiros meses acompanhado de uma leve melhora nos meses seguintes.
+
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
