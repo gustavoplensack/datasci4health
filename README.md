@@ -379,6 +379,24 @@ Repetindo o que fora aplicado para a PNAD, aplicamos ao CAGED uma análise de co
 
 Entre CAGED e IPT não foi possível observar nenhuma correlação mais forte nem com p-valor significativo.
 
+## PNAD dados por setor econômico vs. Isolamento do estado
+
+A Tabela 4 apresenta os valores de correlação obtidos entre o número de ocupados pelos diferentes setores da economia e a porcentagem de isolamento social no estado de SP.  Percebe-se que entre todos os setores, o único que apresentou forte correlação com o isolamento social foi o de comércio `(R: -0.80; p:<0.001)`. Também foram observadas correlações moderadas entre isolamento e os setores da indústria, construção, alimentação/hospedagem, informação e comunicação. 
+
+**Tabela 4** - Correlação entre o número de empregos dos diferentes setores da PNAD com o isolamento social do estado de São Paulo (fevereiro de 2020 a março de 2021).
+
+![PNAD vs. ipt correlation table](assets/img/pnad-corr-table.png)
+
+Entre os que não apresentaram correlações significativas com o isolamento podemos destacar os setores da agricultura e da educação/saúde. No caso do setor da agricultura e pecuária, foi um dos únicos setores que não apresentou inflexão com a pandemia visto que não teve suas atividades paralisadas em decorrência da pandemia por ser considerada uma atividade essencial e, apesar do aumento da inflação e da redução do consumo no país, aumentou-se significativamente neste período as exportações de soja, produtos da cana de açúcar, carnes suínas e algodão, (SCHNEIDER, et al., 2020). Já no caso do setor de educação e saúde, é possível que exista um contraponto:apesar de uma possível redução no número de profissionais ligados à educação em decorrência da diminuição de alunos na rede particular de ensino, no setor de saúde houve um aumento expressivo no número de vagas, principalmente das profissões relacionadas ao enfrentamento direto da pandemia como técnicos de enfermagem, médicos, enfermeiros e fisioterapeutas.
+O Gráfico 9 apresenta a evolução do número de ocupados dos setores que apresentaram correlação com o isolamento social praticado no estado de São Paulo. 
+
+![timeseries PNAD geral vs. IPT](assets/img/pnad-sector-vs-ipt.png)
+
+**Gráfico 9** - Variação do número de empregos em diferentes setores da economia do estado de São Paulo e o nível de isolamento social
+
+Por ser o setor que apresentou maior correlação com o nível de isolamento do estado, percebe-se no gráfico que o número de empregos no comércio flutua segundo às alterações do isolamento. Nota-se também que apesar do comércio ser considerado a atividade econômica que mais emprega no estado (MATTEI e HEINEN,2020), após o início da pandemia apresentou importante queda e no primeiro trimestre de 2021, foi superado pelo setor da informação como atividade com maior número de pessoas empregadas. 
+
+Pelo gráfico também é possível notar que o setor da alimentação e hospedagem apresentou uma grande queda já no início da pandemia, sendo um fato também constatado por Costa (2020) através da análise sobre as principais notícias sobre desemprego na pandemia. Cabe ressaltar que a recuperação deste setor não se mostrou tão próxima aos outros setores, principalmente pois esta é composta por um maior número de trabalhadores informais. Neste caso uma das hipóteses é de que vários comércios relacionados a este setor faliram já no início da pandemia e o mercado não apresentou demanda suficiente para reabertura de novos comércios e geração de novos empregos ao longo do ano. Além disso, este setor da economia continua sendo afetado pelas restrições de isolamento social vigentes (reduzindo a capacidade e horário destes estabelecimentos).
 
 ----
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
